@@ -1,0 +1,9 @@
+{
+	"cmd": ["groovy", "$file"],
+	"selector": "source.groovy",
+	"encoding": "UTF-8",
+
+	"windows": {
+		"cmd": ["groovy.bat", "-Dfile.encoding=UTF-8", "$file"]
+	}
+}
