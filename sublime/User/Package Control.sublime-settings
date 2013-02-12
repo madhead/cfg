@@ -3,9 +3,12 @@
 	"installed_packages":
 	[
 		"Dayle Rees Color Schemes",
+		"GL Shader Validator",
 		"Indent XML",
 		"Markdown Preview",
+		"OpenGL Shading Language (GLSL)",
 		"Package Control",
-		"Pretty JSON"
+		"Pretty JSON",
+		"ShaderLanguages"
 	]
 }

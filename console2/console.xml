@@ -27,7 +27,7 @@
 		<window title="Console" icon="" use_tab_icon="0" use_console_title="0" show_cmd="1" show_cmd_tabs="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0"/>
 		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" show_scrollbars="1" flat_scrollbars="0" tabs_on_bottom="0"/>
 		<styles caption="0" resizable="0" taskbar_button="1" border="0" inside_border="2" tray_icon="1">
-			<selection_color r="255" g="255" b="255"/>
+			<selection_color r="173" g="197" b="252"/>
 		</styles>
 		<position x="-1" y="-1" dock="-1" snap="0" z_order="0" save_position="0"/>
 		<transparency type="1" active_alpha="223" inactive_alpha="127" r="0" g="0" b="0"/>
