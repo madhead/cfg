@@ -4,5 +4,7 @@
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"default_line_ending": "unix"
 }
