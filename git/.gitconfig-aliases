@@ -1,0 +1,6 @@
+# Include this file in ~/.gitconfig
+
+[alias]
+	k = !gitk
+	ka = !gitk --all
+	hist = "log --pretty=format:\"%C(yellow)%h%C(reset) %C(green)%an%C(reset) %s\" -n 15"
