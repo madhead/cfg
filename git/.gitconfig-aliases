@@ -5,3 +5,4 @@
 	ka = !gitk --all
 	hist = "log --pretty=format:\"%C(yellow)%h%C(reset) %C(green)%an%C(reset) %s\" -n 15"
 	fa = fetch --all
+	co = checkout
