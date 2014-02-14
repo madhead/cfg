@@ -7,3 +7,4 @@
 	fa = fetch --all
 	co = checkout
 	erase = !"git push origin :$1 && git branch -D $1; :"
+	st = status
