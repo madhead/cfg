@@ -1,12 +1,8 @@
 {
-	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Dayle Rees Color Schemes",
-		"GenerateUUID",
-		"Markdown Preview",
-		"nginx",
-		"Nodejs",
+		"Indent XML",
 		"Package Control",
 		"Pretty JSON"
 	]

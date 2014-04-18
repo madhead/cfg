@@ -1,11 +1,4 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/Lavender.tmTheme",
-	"default_line_ending": "unix",
-	"detect_slow_plugins": false,
-	"fallback_encoding": "Cyrillic (Windows 1251)",
-	"font_size": 9,
-	"ignored_packages":
-	[
-		"Vintage"
-	]
+	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/lavender.tmTheme",
+	"ignored_packages":[]
 }
