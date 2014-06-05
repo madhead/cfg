@@ -1,7 +1,7 @@
 [
 	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-	{ "keys": ["ctrl+shift+r"], "command": "revert" },
+	{ "keys": ["alt+shift+r"], "command": "revert" },
 	{ "keys": ["ctrl+shift+g"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
 	{ "keys": ["ctrl+tab"], "command": "next_view" },
