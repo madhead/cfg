@@ -29,7 +29,7 @@
 		<styles caption="0" resizable="0" taskbar_button="1" border="0" inside_border="2" tray_icon="1">
 			<selection_color r="173" g="197" b="252"/>
 		</styles>
-		<position x="-1" y="-1" dock="-1" snap="0" z_order="0" save_position="0"/>
+		<position x="153" y="129" dock="-1" snap="0" z_order="0" save_position="1"/>
 		<transparency type="1" active_alpha="223" inactive_alpha="127" r="0" g="0" b="0"/>
 	</appearance>
 	<behavior>
@@ -41,7 +41,7 @@
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="83" command="settings"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="112" command="help"/>
 		<hotkey ctrl="0" shift="0" alt="1" extended="0" code="115" command="exit"/>
-		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="112" command="newtab1"/>
+		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="84" command="newtab1"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="113" command="newtab2"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="114" command="newtab3"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="115" command="newtab4"/>
