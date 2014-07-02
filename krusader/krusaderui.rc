@@ -209,6 +209,8 @@
   <Action shortcut="F2" name="F9_Rename"/>
   <Action shortcut="Shift+F2" name="multirename"/>
   <Action shortcut="Ctrl+T" name="new tab"/>
+  <Action shortcut="Alt+F7" name="find"/>
+  <Action shortcut="" name="file_quit"/>
  </ActionProperties>
 </kpartgui>
 <!--
