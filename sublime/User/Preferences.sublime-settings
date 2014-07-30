@@ -1,4 +1,15 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
 	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/lavender.tmTheme",
 	"ignored_packages":
 	[
