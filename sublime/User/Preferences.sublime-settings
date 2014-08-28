@@ -14,5 +14,6 @@
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"theme": "lavender.sublime-theme"
 }
