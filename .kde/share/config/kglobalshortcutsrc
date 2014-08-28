@@ -37,6 +37,7 @@ _k_friendly_name=KDE Activity Manager
 switch-to-activity-07da6731-435d-4345-a53b-950b79efc70c=none,none,Switch to activity "Desktop"
 switch-to-activity-5875f6b4-600f-44ff-80ad-b7d1752d424a=none,none,Switch to activity "Default"
 switch-to-activity-9a105608-a5ef-46d6-993c-4ca00a3daf6c=none,none,Switch to activity "Reading"
+switch-to-activity-a93b3019-d43b-467c-86c2-5ec7c04c69d5=none,none,Switch to activity "Media"
 
 [kcm_touchpad]
 Disable Touchpad=none,none,Disable Touchpad
@@ -102,6 +103,11 @@ Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,Ctrl+Alt+Shift+Del,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,Ctrl+Alt+Shift+PgUp,Reboot Without Confirmation
 _k_friendly_name=The KDE Session Manager
+
+[ktorrent]
+_k_friendly_name=ktorrent
+queue_suspend=Alt+Shift+P,Alt+Shift+P,Suspend Torrents
+show_kt=Alt+Shift+T,Alt+Shift+T,Show/Hide KTorrent
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
