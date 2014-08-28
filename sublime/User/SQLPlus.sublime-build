@@ -1,5 +1,0 @@
-{
-	"cmd": ["sqlplus", "SYS AS SYSDBA", "@$file"],
-	"encoding": "CP1251",
-	"selector": "source.sql"
-}

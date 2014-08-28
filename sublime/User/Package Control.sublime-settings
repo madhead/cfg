@@ -1,7 +1,6 @@
 {
 	"installed_packages":
 	[
-		"AngularJS",
 		"Dayle Rees Color Schemes",
 		"Emmet",
 		"GenerateUUID",
@@ -9,9 +8,7 @@
 		"LESS",
 		"Markdown Preview",
 		"Package Control",
-		"Pretty JSON",
 		"SideBarEnhancements",
-		"Tag",
 		"Theme - Spacegray"
 	]
 }
