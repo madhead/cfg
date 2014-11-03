@@ -2,6 +2,7 @@
 ColorScheme=GreenOnBlack
 
 [General]
+Command=$SHELL
 Name=Shell
 Parent=FALLBACK/
 
