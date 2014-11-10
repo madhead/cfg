@@ -1,0 +1,8 @@
+task createSettigsJar(type: Zip) {
+	destinationDir = project.buildDir
+	archiveName = 'settings.jar'
+
+	from 'settings'
+}
+
+defaultTasks 'createSettigsJar'
