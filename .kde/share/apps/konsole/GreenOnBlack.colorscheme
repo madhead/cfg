@@ -17,7 +17,7 @@ Color=250,75,75
 Color=255,84,84
 
 [Color2]
-Color=24,178,24
+Color=24,240,24
 
 [Color2Intense]
 Color=84,255,84
@@ -53,10 +53,10 @@ Color=178,178,178
 Color=255,255,255
 
 [Foreground]
-Color=24,240,24
+Color=24,178,24
 
 [ForegroundIntense]
-Color=24,240,24
+Color=24,178,24
 
 [General]
 Description=Green on Black
