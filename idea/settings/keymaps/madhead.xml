@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="madhead" parent="Eclipse">
   <action id="CloseActiveTab" />
   <action id="CloseContent">
@@ -54,8 +53,20 @@
     <keyboard-shortcut first-keystroke="shift control SPACE" />
   </action>
   <action id="IDEtalk.ViewFiles" />
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="control alt TAB" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="control TAB" />
+  </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="control CONTEXT_MENU" />
+  </action>
+  <action id="PreviousEditorTab">
+    <keyboard-shortcut first-keystroke="shift control alt TAB" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift control TAB" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="shift alt Q" second-keystroke="J" />
@@ -90,10 +101,12 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="WINDOWS" />
+  </action>
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="control T" />
   </action>
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>
-
