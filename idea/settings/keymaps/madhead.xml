@@ -102,7 +102,7 @@
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
   <action id="Switcher">
-    <keyboard-shortcut first-keystroke="WINDOWS" />
+    <keyboard-shortcut first-keystroke="control WINDOWS" />
   </action>
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="control T" />
