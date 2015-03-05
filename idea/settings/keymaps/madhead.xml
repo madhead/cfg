@@ -24,6 +24,9 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control O" />
   </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift control F" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="F3" />
   </action>
@@ -36,6 +39,8 @@
   <action id="FindUsagesInFile">
     <keyboard-shortcut first-keystroke="control G" />
   </action>
+  <action id="GAE.Fmt.FileRunner" />
+  <action id="Go.Fmt.FileRunner" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift control P" />
   </action>
@@ -74,8 +79,14 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift alt T" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="control alt L" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="F2" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift control alt F" />
   </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt ENTER" />
@@ -83,8 +94,12 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="shift alt S" />
   </action>
+  <action id="ShowProjectStructureSettings" />
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="shift control alt G" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralReplaceAction">
+    <keyboard-shortcut first-keystroke="shift control alt S" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
