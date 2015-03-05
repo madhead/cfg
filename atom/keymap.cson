@@ -33,5 +33,5 @@
   'alt-up': 'editor:move-line-up',
   'alt-down': 'editor:move-line-down'
 
-'.platform-darwin, .platform-win32, .platform-win32 .editor, .platform-linux':
+'.platform-darwin, .platform-win32, .platform-win32 .editor, .platform-linux, .platform-linux .editor':
   'ctrl-l': 'go-to-line:toggle'
