@@ -35,3 +35,6 @@
 
 '.platform-darwin, .platform-win32, .platform-win32 .editor, .platform-linux, .platform-linux .editor':
   'ctrl-l': 'go-to-line:toggle'
+
+'atom-text-editor':
+  'ctrl-alt-l': 'beautify:beautify-editor'
