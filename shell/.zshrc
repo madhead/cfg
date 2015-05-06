@@ -9,7 +9,7 @@ ZSH_THEME="madhead"
 
 HIST_STAMPS="mm/dd/yyyy"
 
-plugins=(mvn)
+plugins=(mvn, vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
