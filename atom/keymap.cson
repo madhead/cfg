@@ -37,4 +37,4 @@
   'ctrl-l': 'go-to-line:toggle'
 
 'atom-text-editor':
-  'ctrl-alt-l': 'beautify:beautify-editor'
+  'ctrl-alt-l': 'atom-beautify:beautify-editor'
