@@ -211,6 +211,7 @@
   <Action shortcut="Ctrl+T" name="new tab"/>
   <Action shortcut="Alt+F7" name="find"/>
   <Action shortcut="" name="file_quit"/>
+  <Action shortcut="" name="root"/>
  </ActionProperties>
 </kpartgui>
 <!--
