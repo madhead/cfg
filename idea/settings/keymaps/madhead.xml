@@ -50,6 +50,9 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control F3" />
   </action>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
   <action id="GuiDesigner.GoToListener">
     <keyboard-shortcut first-keystroke="control alt B" />
   </action>
