@@ -1,0 +1,12 @@
+<scheme name="madhead" version="141" parent_scheme="Darcula">
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <attributes>
+    <option name="KOTLIN_ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="bbb529" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
