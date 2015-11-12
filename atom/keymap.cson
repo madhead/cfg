@@ -32,6 +32,9 @@
 'atom-workspace atom-text-editor:not([mini])':
   'alt-up': 'editor:move-line-up',
   'alt-down': 'editor:move-line-down'
+  'ctrl-up': 'editor:add-selection-above'
+  'ctrl-down': 'editor:add-selection-below'
+  'ctrl-alt-down': 'editor:duplicate-lines'
 
 '.platform-darwin, .platform-win32, .platform-linux, .platform-darwin atom-text-editor, .platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-l': 'go-to-line:toggle'
