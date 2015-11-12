@@ -1,0 +1,7 @@
+<application>
+  <component name="UISettings">
+    <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="SHOW_CLOSE_BUTTON" value="false" />
+  </component>
+</application>

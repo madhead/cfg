@@ -1,129 +1,129 @@
 <keymap version="1" name="madhead" parent="Eclipse">
   <action id="CloseActiveTab" />
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="control W" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="Console.Jdbc.Close" />
   <action id="Console.Jpa.Close" />
   <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="alt ENTER" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="DSM.Close" />
   <action id="EditorBackSpace">
-    <keyboard-shortcut first-keystroke="BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="control CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="shift control U" />
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorToggleColumnMode">
-    <keyboard-shortcut first-keystroke="shift control A" />
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="control O" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift control F" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="F3" />
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="shift F3" />
+    <keyboard-shortcut first-keystroke="shift f3" />
   </action>
   <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="shift control G" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="FindUsagesInFile">
-    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="GAE.Fmt.FileRunner" />
   <action id="Go.Fmt.FileRunner" />
   <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift control P" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="control F3" />
+    <keyboard-shortcut first-keystroke="ctrl f3" />
   </action>
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="GuiDesigner.GoToListener">
-    <keyboard-shortcut first-keystroke="control alt B" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="GuiDesigner.QuickJavadoc">
     <mouse-shortcut keystroke="alt button2" />
-    <keyboard-shortcut first-keystroke="shift control SPACE" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
   <action id="IDEtalk.ViewFiles" />
   <action id="NextEditorTab">
-    <keyboard-shortcut first-keystroke="control alt TAB" />
+    <keyboard-shortcut first-keystroke="ctrl alt tab" />
   </action>
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="control TAB" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="ParameterInfo">
-    <keyboard-shortcut first-keystroke="control CONTEXT_MENU" />
+    <keyboard-shortcut first-keystroke="ctrl context_menu" />
   </action>
   <action id="PreviousEditorTab">
-    <keyboard-shortcut first-keystroke="shift control alt TAB" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt tab" />
   </action>
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="shift control TAB" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="shift alt Q" second-keystroke="J" />
+    <keyboard-shortcut first-keystroke="shift alt q" second-keystroke="j" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift alt T" />
+    <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="control alt L" />
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="F2" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift control alt F" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="alt ENTER" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="ShowPopupMenu">
-    <keyboard-shortcut first-keystroke="shift alt S" />
+    <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
   <action id="ShowProjectStructureSettings" />
   <action id="ShowSettingsAndFindUsages">
-    <keyboard-shortcut first-keystroke="shift control alt G" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
-    <keyboard-shortcut first-keystroke="shift control alt S" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+    <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="Switcher">
-    <keyboard-shortcut first-keystroke="control WINDOWS" />
+    <keyboard-shortcut first-keystroke="ctrl windows" />
   </action>
   <action id="TypeHierarchy">
-    <keyboard-shortcut first-keystroke="control T" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
