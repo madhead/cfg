@@ -15,6 +15,9 @@
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
