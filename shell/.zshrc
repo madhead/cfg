@@ -1,5 +1,3 @@
-export ZSH=$HOME/Projects/oh-my-zsh
-
 ZSH_THEME="madhead"
 
 # Uncomment the following line if you want to disable marking untracked files
