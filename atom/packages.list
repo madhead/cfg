@@ -1,5 +1,6 @@
-atom-beautify@0.28.21
-go-plus@3.5.2
+atom-beautify@0.28.26
+go-plus@3.5.4
+language-ini@1.14.0
 lavender-syntax@0.0.2
 lavender-ui@0.0.2
 symbol-gen@1.0.0
