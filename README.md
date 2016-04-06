@@ -1,1 +1,1 @@
- Configs for various utilities and tools.
+Configs for various utilities and tools.
