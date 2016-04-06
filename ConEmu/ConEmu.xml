@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2015-11-09 18:30:11" build="150813c">
+		<key name=".Vanilla" modified="2016-02-22 11:38:11" build="150813c">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -59,7 +59,7 @@
 			<value name="FontSize" type="dword" data="0000000e"/>
 			<value name="StatusFontHeight" type="dword" data="0000000c"/>
 			<value name="TabFontHeight" type="dword" data="0000000d"/>
-			<key name="HotKeys" modified="2015-11-06 16:15:13" build="150813c">
+			<key name="HotKeys" modified="2016-01-18 17:17:55" build="150813c">
 				<value name="MinimizeRestore" type="dword" data="000011c0"/>
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
@@ -127,7 +127,7 @@
 				<value name="Multi.ShowTabsList" type="dword" data="00000000"/>
 				<value name="Multi.ShowTabsList2" type="dword" data="00005d7b"/>
 				<value name="ClipboardVkAllLines" type="dword" data="0000102d"/>
-				<value name="ClipboardVkFirstLine" type="dword" data="00001156"/>
+				<value name="ClipboardVkFirstLine" type="dword" data="00000000"/>
 				<value name="DeleteWordToLeft" type="dword" data="00001108"/>
 				<value name="FindTextKey" type="dword" data="00005d46"/>
 				<value name="ScreenshotKey" type="dword" data="00005b48"/>
@@ -239,6 +239,8 @@
 				<value name="WndDragKey" type="dword" data="00121101"/>
 			</key>
 			<value name="CmdLineHistory" type="multi">
+				<line data="{Bash::MSYS2}"/>
+				<line data="{Bash::git}"/>
 				<line data="{Tests::Show ANSI colors}"/>
 				<line data="{Bash::Bash}"/>
 				<line data="{Cmd::cmd}"/>
@@ -338,8 +340,8 @@
 			<value name="ConWnd Width" type="dword" data="0000008e"/>
 			<value name="ConWnd Height" type="dword" data="0000002a"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="dword" data="00000776"/>
-			<value name="ConWnd Y" type="dword" data="fffffff9"/>
+			<value name="ConWnd X" type="dword" data="00000787"/>
+			<value name="ConWnd Y" type="dword" data="fffffff0"/>
 			<value name="16bit Height" type="dword" data="00000000"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
@@ -571,9 +573,9 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="Tasks" modified="2015-11-06 16:15:13" build="150813c">
+			<key name="Tasks" modified="2016-01-18 17:17:55" build="150813c">
 				<value name="Count" type="dword" data="0000000a"/>
-				<key name="Task1" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task1" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Bash::git}"/>
 					<value name="Flags" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -582,7 +584,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task2" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task2" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Bash::MSYS2}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -591,7 +593,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task3" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task3" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Cmd::cmd}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -601,7 +603,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task4" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task4" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Cmd::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -611,7 +613,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Cmd2" type="string" data="&quot;%windir%\syswow64\cmd.exe&quot; /k &quot;&quot;%ConEmuBaseDir%\CmdInit.cmd&quot; &amp; echo This is 32 bit cmd.exe -new_console:s50V&quot;"/>
 				</key>
-				<key name="Task5" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task5" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Cmd::cmd 64/32}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -621,7 +623,7 @@
 					<value name="Count" type="dword" data="00000002"/>
 					<value name="Cmd2" type="string" data="&quot;%windir%\syswow64\cmd.exe&quot; /k &quot;&quot;%ConEmuBaseDir%\CmdInit.cmd&quot; &amp; echo This is 32 bit cmd.exe -new_console:s50V&quot;"/>
 				</key>
-				<key name="Task6" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task6" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Cmd::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -631,7 +633,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Cmd2" type="string" data="&quot;%windir%\syswow64\cmd.exe&quot; /k &quot;&quot;%ConEmuBaseDir%\CmdInit.cmd&quot; &amp; echo This is 32 bit cmd.exe -new_console:s50V&quot;"/>
 				</key>
-				<key name="Task7" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task7" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Cmd::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -640,7 +642,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task8" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task8" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Putty}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -649,7 +651,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task9" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task9" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Tests::Show ANSI colors}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -658,7 +660,7 @@
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-				<key name="Task10" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Task10" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="{Scripts::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -686,12 +688,12 @@
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
 			</key>
-			<key name="Apps" modified="2015-11-06 16:15:13" build="150813c">
+			<key name="Apps" modified="2016-01-18 17:17:55" build="150813c">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-			<key name="Colors" modified="2015-11-06 16:15:13" build="150813c">
+			<key name="Colors" modified="2016-01-18 17:17:55" build="150813c">
 				<value name="Count" type="dword" data="00000001"/>
-				<key name="Palette1" modified="2015-11-06 16:15:13" build="150813c">
+				<key name="Palette1" modified="2016-01-18 17:17:55" build="150813c">
 					<value name="Name" type="string" data="madhead"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
