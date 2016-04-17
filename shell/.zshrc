@@ -13,4 +13,4 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-source ~/.zshrc-local
+[[ -f ~/.zshrc-local ]] && source ~/.zshrc-local
