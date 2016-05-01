@@ -1,7 +1,20 @@
-atom-beautify@0.28.26
-go-plus@3.5.4
-language-ini@1.14.0
+atom-beautify@0.29.7
+autocomplete-go@1.0.8
+builder-go@1.0.0
+environment@1.2.0
+go-config@1.1.4
+go-get@1.0.3
+go-plus@4.1.0
+gofmt@1.1.6
+gometalinter-linter@1.1.0
+gorename@1.0.2
+language-ini@1.16.0
+language-nginx@0.6.1
 lavender-syntax@0.0.2
 lavender-ui@0.0.2
+linter@1.11.4
+navigator-godef@1.0.3
 symbol-gen@1.0.0
+tester-go@1.0.4
+
 
