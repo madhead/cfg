@@ -1,5 +1,5 @@
 atom-beautify@0.29.7
-autocomplete-go@1.0.8
+autocomplete-go@1.1.0
 builder-go@1.0.0
 environment@1.2.0
 go-config@1.1.4
@@ -14,7 +14,7 @@ lavender-syntax@0.0.2
 lavender-ui@0.0.2
 linter@1.11.4
 navigator-godef@1.0.3
-symbol-gen@1.0.0
+symbol-gen@1.3.0
 tester-go@1.0.4
 
 
