@@ -1,29 +1,70 @@
 <keymap version="1" name="madhead" parent="Eclipse">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+  </action>
   <action id="Console.Jdbc.Close" />
   <action id="Console.Jpa.Close" />
+  <action id="Console.Jpa.GenerateSql">
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="CopyAsPlainText">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="CopyAsRichText">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
   <action id="DSM.Close" />
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorChooseLookupItemCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
-  <action id="EditorToggleColumnMode">
-    <keyboard-shortcut first-keystroke="shift ctrl a" />
-  </action>
+  <action id="EditorToggleColumnMode" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
@@ -53,6 +94,9 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl f3" />
   </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
@@ -61,7 +105,9 @@
   </action>
   <action id="GuiDesigner.QuickJavadoc">
     <mouse-shortcut keystroke="alt button2" />
-    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
   <action id="IDEtalk.ViewFiles" />
   <action id="NextEditorTab">
@@ -73,6 +119,7 @@
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl context_menu" />
   </action>
+  <action id="PasteMultiple" />
   <action id="PreviousEditorTab">
     <keyboard-shortcut first-keystroke="shift ctrl alt tab" />
   </action>
@@ -88,6 +135,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="RemoteHostView.CopyPaths" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -104,6 +152,8 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
+  <action id="ShowUmlDiagramPopup" />
+  <action id="ShowUsages" />
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt s" />
   </action>
