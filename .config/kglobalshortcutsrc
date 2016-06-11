@@ -3,7 +3,7 @@ Switch keyboard layout to Belarusian=none,none,Switch keyboard layout to Belarus
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Russian=none,none,Switch keyboard layout to Russian
 Switch to Next Keyboard Layout=none,none,Switch to Next Keyboard Layout
-_k_friendly_name=KDE Daemon
+_k_friendly_name=System Settings
 
 [amarok]
 _k_friendly_name=amarok
@@ -37,7 +37,7 @@ _k_friendly_name=kaccess
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
 Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
-_k_friendly_name=KDE Daemon
+_k_friendly_name=System Settings
 
 [kded5]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
