@@ -10,5 +10,6 @@ HorizTwoFingerScroll=true
 MaxTapMove=3.7000000000000002
 OneFingerTapButton=LeftButton
 Tapping=false
+TwoFingerTapButton=MiddleButton
 VertEdgeScroll=true
 VertScrollDelta=2.1000000000000001
