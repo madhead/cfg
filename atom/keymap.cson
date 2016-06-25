@@ -44,3 +44,7 @@
 
 'body':
   'ctrl-shift-i': 'window:toggle-dev-tools'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab': 'pane:show-previous-item'
