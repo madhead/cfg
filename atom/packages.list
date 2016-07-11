@@ -1,8 +1,8 @@
-atom-beautify@0.29.8
+atom-beautify@0.29.9
 autocomplete-go@1.1.0
 builder-go@1.0.0
 environment@1.2.0
-go-config@1.1.4
+go-config@1.2.1
 go-get@1.0.3
 go-plus@4.1.0
 gofmt@1.1.6
