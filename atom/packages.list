@@ -1,4 +1,8 @@
-atom-beautify@0.29.9
+asciidoc-assistant@0.2.1
+asciidoc-image-helper@1.0.0
+asciidoc-preview@2.5.2
+atom-beautify@0.29.10
+autocomplete-asciidoc@0.1.1
 autocomplete-go@1.1.0
 builder-go@1.0.0
 environment@1.2.0
@@ -8,6 +12,7 @@ go-plus@4.1.0
 gofmt@1.1.6
 gometalinter-linter@1.1.0
 gorename@1.0.2
+language-asciidoc@1.5.1
 language-ini@1.16.0
 language-nginx@0.6.1
 lavender-syntax@0.0.2
