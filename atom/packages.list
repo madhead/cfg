@@ -1,25 +1,15 @@
 asciidoc-assistant@0.2.1
 asciidoc-image-helper@1.0.0
-asciidoc-preview@2.5.2
+asciidoc-preview@2.6.0
 atom-beautify@0.29.10
 autocomplete-asciidoc@0.1.1
-autocomplete-go@1.1.0
-builder-go@1.0.0
 environment@1.2.0
-go-config@1.2.1
-go-get@1.0.3
-go-plus@4.1.0
-gofmt@1.1.6
-gometalinter-linter@1.1.0
-gorename@1.0.2
 language-asciidoc@1.5.1
 language-ini@1.16.0
 language-nginx@0.6.1
 lavender-syntax@0.0.2
 lavender-ui@0.0.2
-linter@1.11.14
-navigator-godef@1.0.3
+linter@1.11.16
 symbol-gen@1.3.1
-tester-go@1.0.4
 
 
