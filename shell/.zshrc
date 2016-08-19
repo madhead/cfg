@@ -7,7 +7,7 @@ ZSH_THEME="madhead"
 
 HIST_STAMPS="mm/dd/yyyy"
 
-plugins=(mvn vagrant docker)
+plugins=(git docker)
 
 source $ZSH/oh-my-zsh.sh
 
