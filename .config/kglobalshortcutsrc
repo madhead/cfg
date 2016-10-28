@@ -3,10 +3,10 @@ Switch keyboard layout to Belarusian=none,none,Switch keyboard layout to Belarus
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Russian=none,none,Switch keyboard layout to Russian
 Switch to Next Keyboard Layout=none,none,Switch to Next Keyboard Layout
-_k_friendly_name=System Settings
+_k_friendly_name=KDE Daemon
 
 [amarok]
-_k_friendly_name=amarok
+_k_friendly_name=Amarok
 decreaseVolume=,Meta+-,Decrease Volume
 increaseVolume=Meta++,Meta++,Increase Volume
 loveTrack=,Meta+L,Last.fm: Love Current Track
@@ -37,7 +37,7 @@ _k_friendly_name=kaccess
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
 Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
-_k_friendly_name=System Settings
+_k_friendly_name=KDE Daemon
 
 [kded5]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -49,25 +49,28 @@ PowerOff=Power Off,Power Off,Power Off
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
 Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
-_k_friendly_name=KDE Daemon
-display=Display,Display,Switch Display
+_k_friendly_name=Power Management
+display=Display,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=KDE Daemon
 {49a01ba3-5ede-4776-86ef-bd0cae553e55}=Shift+Print,none,Take Full Screen Screenshot
 {b95e5732-bf2f-4405-b11f-30ba1a2dc8c4}=Meta+Print,none,Take Active Window Screenshot
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
-{df29ae65-910b-4f76-b3fa-4b8105bb7593}=Print,none,PrintScreen
-{ff5a6713-2c92-429d-b40a-5e7095509657}=,none,Start Screenshot Tool
+{df29ae65-910b-4f76-b3fa-4b8105bb7593}=none,none,PrintScreen
+{ff5a6713-2c92-429d-b40a-5e7095509657}=Print,none,Start Screenshot Tool
 
 [kmix]
 _k_friendly_name=Audio Volume
+decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
 decrease_volume=Volume Down,Volume Down,Decrease Volume
+increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
+mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
 [krunner]
-_k_friendly_name=krunner
+_k_friendly_name=Run Command
 run command=Meta+R\t\tSearch,Alt+Space,Run Command
 run command on clipboard contents=none,Alt+Shift+F2,Run Command on clipboard contents
 
@@ -246,7 +249,7 @@ view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
-_k_friendly_name=mediacontrol
+_k_friendly_name=Media Controller
 nextmedia=Media Next,Media Next,Media playback next
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous

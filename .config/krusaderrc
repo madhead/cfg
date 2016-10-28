@@ -1,0 +1,142 @@
+First Time=false
+Version=2.5.0
+
+[Archives]
+Supported Packers=tar,gzip,bzip2,lzma,xz,unzip,zip,cbz,unrar,unarj,7z
+
+[Dependencies]
+7z=/usr/bin/7z
+bzip2=/usr/bin/bzip2
+checksum utility=/usr/bin/md5sum
+diff utility=/usr/bin/kdiff3
+gzip=/usr/bin/gzip
+kdesu=/usr/bin/kdesu
+kdiff3=/usr/bin/kdiff3
+kget=/usr/bin/kget
+kmail=/usr/bin/kmail
+krusader=/usr/bin/krusader
+lzma=/usr/bin/lzma
+mailer=/usr/bin/kmail
+md5sum=/usr/bin/md5sum
+mount=/usr/bin/mount
+sha1sum=/usr/bin/sha1sum
+sha224sum=/usr/bin/sha224sum
+sha256sum=/usr/bin/sha256sum
+sha384sum=/usr/bin/sha384sum
+sha512sum=/usr/bin/sha512sum
+tar=/usr/bin/tar
+umount=/usr/bin/umount
+unarj=/usr/bin/unarj
+unrar=/usr/bin/unrar
+unzip=/usr/bin/unzip
+xz=/usr/bin/xz
+zip=/usr/bin/zip
+
+[General]
+Editor=atom
+Move To Trash=false
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KPropertiesDialog]
+Height 768=450
+Width 1366=511
+
+[KTextEditor::Search]
+Search History=Terminal
+
+[Konfigurator]
+Window Height=680
+Window Maximized=false
+Window Width=900
+
+[KrViewerWindow]
+Window Height=-1
+Window Maximized=true
+Window Width=-1
+
+[ListPanelButtons]
+Icons=false
+
+[Look&Feel]
+Default Panel Type=0
+Default Search Mode=1
+Equal Button Visible=true
+Home Button Visible=true
+Navigator Edit Mode=false
+Single Instance Mode=true
+SyncBrowse Button Visible=false
+Tab Bar Position=bottom
+
+[PanelLayout]
+Layout=krusader:default
+
+[Private]
+Maximized=true
+PopularUrls=file:///home/madhead/,file:///home/madhead/.atom/,file:///home/madhead/.arduino15/,file:///home/madhead/.ansible/,file:///home/madhead/Projects/Advanced_Android_Development/,file:///home/madhead/Projects/,file:///home/,file:///
+PopularUrlsRank=32,14,10,6,0,0,0,0
+Window-Maximized 768x1366=true
+cmdline history=
+
+[QueueManager]
+Active=0
+Queues=default
+
+[Startup]
+Left Side Is Active=false
+Splitter Sizes=683,682
+State=AAAA/wAAAAD9AAAAAAAABVYAAAJhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHABhAGMAdABpAG8AbgBzAFQAbwBvAGwAQgBhAHIBAAACvv////8AAAAAAAAAAA==
+Terminal Emulator Splitter Sizes=100,100
+ToolBarsMovable=Disabled
+Vertical Mode=false
+Window-Maximized 768x1366=true
+
+[Startup][Left Tab Bar]
+ActiveTab=0
+
+[Startup][Left Tab Bar][Tabs][Tab0]
+Properties=0
+Type=0
+Url=file:///home/madhead/.atom
+
+[Startup][Left Tab Bar][Tabs][Tab0][History]
+CurrentIndex=0
+CurrentItems=packages,.atom,..,.atom,..,.ansible,..,.profile,Advanced_Android_Development,app,Advanced_Android_Development,Projects,madhead
+Entrys=file:///home/madhead/.atom,file:///home/madhead,file:///home/madhead/.atom,file:///home/madhead,file:///home/madhead/.arduino15,file:///home/madhead,file:///home/madhead/.ansible,file:///home/madhead,file:///home/madhead/Projects,file:///home/madhead/Projects/Advanced_Android_Development,file:///home/madhead/Projects,file:///home/madhead,file:///home
+
+[Startup][Left Tab Bar][Tabs][Tab0][View]
+AutoResizeColumns=true
+Descending Sort Order=0
+Filter=3
+FilterApplysToDirs=false
+IconSize=22
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x02ß\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x01ö\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03Ë\x00\x00\x00\x00d
+ShowPreviews=false
+Sort Column=0
+
+[Startup][Right Tab Bar]
+ActiveTab=0
+
+[Startup][Right Tab Bar][Tabs][Tab0]
+Properties=0
+Type=0
+Url=file:///home/madhead
+
+[Startup][Right Tab Bar][Tabs][Tab0][History]
+CurrentIndex=0
+CurrentItems=.FreeCAD,..,.arduino15,..,.ansible
+Entrys=file:///home/madhead,file:///home/madhead/.arduino15,file:///home/madhead,file:///home/madhead/.ansible,file:///home/madhead
+
+[Startup][Right Tab Bar][Tabs][Tab0][View]
+AutoResizeColumns=true
+Descending Sort Order=0
+Filter=3
+FilterApplysToDirs=false
+IconSize=22
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x02í\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x01Ö\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03Ë\x00\x00\x00\x00d
+ShowPreviews=false
+Sort Column=0
+
+[ViewerModule]
+FirstRun=false

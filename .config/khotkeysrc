@@ -489,7 +489,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_3_1Triggers0]
-Key=Print
+Key=
 Type=SHORTCUT
 Uuid={df29ae65-910b-4f76-b3fa-4b8105bb7593}
 
@@ -934,7 +934,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_5_1Triggers0]
-Key=
+Key=Print
 Type=SHORTCUT
 Uuid={ff5a6713-2c92-429d-b40a-5e7095509657}
 
