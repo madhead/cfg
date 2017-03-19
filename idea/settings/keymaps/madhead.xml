@@ -65,6 +65,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorToggleColumnMode" />
+  <action id="ExternalSystem.RefreshAllProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl f5" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
@@ -110,6 +113,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
   <action id="IDEtalk.ViewFiles" />
+  <action id="Kotlin.NewFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="k" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="p" />
+  </action>
   <action id="NextEditorTab">
     <keyboard-shortcut first-keystroke="ctrl alt tab" />
   </action>
