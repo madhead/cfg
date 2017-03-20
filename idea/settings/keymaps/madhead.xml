@@ -8,6 +8,9 @@
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
+  <action id="Bash.NewBashScript">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="b" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -103,6 +106,9 @@
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
+  <action id="Groovy.NewClass">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="g" />
+  </action>
   <action id="GuiDesigner.GoToListener">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
@@ -116,8 +122,23 @@
   <action id="Kotlin.NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="k" />
   </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="j" />
+  </action>
   <action id="NewDir">
-    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="d" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="f" />
+  </action>
+  <action id="NewHtmlFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="h" />
+  </action>
+  <action id="NewJavaScriptFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="shift j" />
+  </action>
+  <action id="NewStylesheetFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="s" />
   </action>
   <action id="NextEditorTab">
     <keyboard-shortcut first-keystroke="ctrl alt tab" />
