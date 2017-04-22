@@ -48,3 +48,7 @@
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-shift-tab': 'pane:show-previous-item'
+
+'.tree-view':
+  'ctrl-shift-n f': 'tree-view:add-file'
+  'ctrl-shift-n d': 'tree-view:add-folder'
