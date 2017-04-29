@@ -44,8 +44,8 @@ ElectricBorders=0
 
 [org.kde.kdecoration2]
 BorderSize=Normal
-ButtonsOnLeft=MS
+ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.breeze
-theme=
+theme[$d]
