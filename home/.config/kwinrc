@@ -17,6 +17,11 @@ BorderActivate=9
 BorderActivateAll=9
 BorderActivateClass=9
 
+[Effect-Wobbly]
+Drag=85
+Stiffness=10
+WobblynessLevel=1
+
 [ElectricBorders]
 Bottom=None
 BottomLeft=None
@@ -26,6 +31,11 @@ Right=None
 Top=None
 TopLeft=None
 TopRight=None
+
+[Plugins]
+mousemarkEnabled=true
+trackmouseEnabled=true
+wobblywindowsEnabled=true
 
 [TabBox]
 BorderActivate=9
