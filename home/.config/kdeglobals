@@ -149,6 +149,7 @@ Size=32
 [General]
 ColorScheme=Maia
 Name=Maia
+UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
