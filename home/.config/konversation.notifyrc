@@ -1,0 +1,12 @@
+[Event/channelJoin]
+Execute=
+Logfile=
+Sound=
+TTS=
+
+[Event/dcctransfer_done]
+Action=
+Execute=
+Logfile=
+Sound=
+TTS=

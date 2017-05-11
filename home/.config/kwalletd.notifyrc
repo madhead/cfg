@@ -1,0 +1,6 @@
+[Event/syncFailed]
+Action=Popup
+Execute=
+Logfile=
+Sound=
+TTS=

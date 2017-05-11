@@ -1,0 +1,6 @@
+[Event/CannotLoadSilently]
+Action=Sound|Popup
+Execute=
+Logfile=
+Sound=
+TTS=

@@ -1,0 +1,6 @@
+[Event/transferReceived]
+Action=Popup
+Execute=
+Logfile=
+Sound=
+TTS=

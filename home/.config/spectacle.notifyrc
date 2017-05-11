@@ -1,0 +1,6 @@
+[Event/newScreenshotSaved]
+Action=Popup
+Execute=
+Logfile=
+Sound=
+TTS=

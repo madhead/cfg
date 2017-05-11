@@ -1,0 +1,13 @@
+[Event/Activity]
+Action=Popup
+Execute=
+Logfile=
+Sound=
+TTS=
+
+[Event/BellVisible]
+Action=
+Execute=
+Logfile=
+Sound=
+TTS=
