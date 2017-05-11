@@ -130,8 +130,14 @@ DisabledValue=1
 Size=32
 
 [General]
+BrowserApplication[$d]
 ColorScheme=Maia
 Name=Maia
+UseSystemBell=true
+XftAntialias=true
+XftHintStyle=hintmedium
+XftSubPixel=none
+dbfile=/home/madhead/.mozilla/firefox/a01n9zng.default/places.sqlite
 font=Noto Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
@@ -143,9 +149,16 @@ widgetStyle=breeze
 Theme=maia
 
 [KDE]
+DoubleClickInterval=400
+LookAndFeelPackage=org.kde.maia.desktop
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
+SingleClick=true
+StartDragDist=4
+StartDragTime=500
+WheelScrollLines=3
 contrast=7
+widgetStyle=breeze
 
 [MainToolbarIcons]
 ActiveColor=169,156,255

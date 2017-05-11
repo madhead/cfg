@@ -147,6 +147,7 @@ DisabledValue=1
 Size=32
 
 [General]
+BrowserApplication[$d]
 ColorScheme=Maia
 Name=Maia
 UseSystemBell=true
@@ -160,9 +161,14 @@ shadeSortColumn=true
 Theme=maia
 
 [KDE]
+DoubleClickInterval=400
 LookAndFeelPackage=org.kde.maia.desktop
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
+SingleClick=true
+StartDragDist=4
+StartDragTime=500
+WheelScrollLines=3
 contrast=7
 widgetStyle=breeze
 
@@ -181,7 +187,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=93
+Speedbar Width=94
 View Style=Simple
 listViewIconSize=0
 
