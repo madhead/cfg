@@ -2,16 +2,5 @@
 DisableWhenMousePluggedIn=true
 
 [parameters]
-AccelFactor=0.061425060033798218
-CircScrollDelta=6
-HorizEdgeScroll=true
-HorizScrollDelta=2.2000000000000002
-HorizTwoFingerScroll=true
-InvertHorizScroll=true
 InvertVertScroll=true
-MaxTapMove=3.7000000000000002
-OneFingerTapButton=LeftButton
-Tapping=false
-TwoFingerTapButton=MiddleButton
-VertEdgeScroll=true
-VertScrollDelta=2.1000000000000001
+Tapping=true

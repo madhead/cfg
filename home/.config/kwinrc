@@ -1,5 +1,15 @@
 [Compositing]
+AnimationSpeed=3
+Backend=OpenGL
+Enabled=true
+GLCore=false
+GLPlatformInterface=glx
+GLPreferBufferSwap=a
+GLTextureFilter=2
+HiddenPreviews=5
 OpenGLIsUnsafe=false
+WindowsBlockCompositing=true
+XRenderSmoothScale=false
 
 [Desktops]
 Name_1[$d]
