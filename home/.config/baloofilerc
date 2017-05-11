@@ -1,0 +1,9 @@
+[Basic Settings]
+Indexing-Enabled=true
+
+[General]
+dbVersion=2
+exclude filters=CMakeCache.txt,confstat,*~,libtool,config.status,*.elc,__pycache__,*.swap,litmain.sh,.svn,CMakeFiles,.xsession-errors*,*.omf,.moc,conftest,qrc_*.cpp,*.rej,.git,.histfile.*,*.o,*.nvram,*.csproj,CMakeTmpQmake,po,lost+found,*.pc,autom4te,*.vm*,Makefile.am,*.gmo,.uic,core-dumps,*.rcore,moc_*.cpp,*.moc,.hg,*.aux,lzo,*.loT,CTestTestfile.cmake,*.part,*.tmp,.pch,ui_*.h,cmake_install.cmake,*.class,.obj,*.la,*.pyc,*.orig,CVS,.bzr,CMakeTmp,*.lo,*.m4,_darcs,confdefs.h,*.po
+exclude filters version=2
+first run=false
+folders[$e]=$HOME/

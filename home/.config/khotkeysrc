@@ -35,7 +35,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_1_1Triggers0]
-Key=Search
+Key=
 Type=SHORTCUT
 Uuid={d03619b6-9b3c-48cc-9d9c-a2aadb485550}
 
@@ -894,7 +894,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_1Triggers0]
-Key=Print
+Key=
 Type=SHORTCUT
 Uuid={a7977fb8-d77b-452a-8c77-752d9a02bbb5}
 
@@ -923,7 +923,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_2Triggers0]
-Key=Shift+Print
+Key=
 Type=SHORTCUT
 Uuid={4b74090a-0065-4e41-8c57-baa45f6f65e2}
 
@@ -952,7 +952,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_3Triggers0]
-Key=Meta+Print
+Key=
 Type=SHORTCUT
 Uuid={549f3012-e75e-4280-93e6-46b87f38725c}
 
