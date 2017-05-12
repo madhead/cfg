@@ -1,8 +1,8 @@
 [General]
-history=krus,kons,kee,googl
+history=kons,kee,krus,googl
 
 [PlasmaRunnerManager]
-LaunchCounts=
+LaunchCounts=2 services_keepass.desktop,1 services_google-chrome.desktop,3 services_org.kde.krusader.desktop,1 baloosearch_/home/madhead/Projects/cfg/KDE5/konsole.shortcuts,5 services_org.kde.konsole.desktop
 
 [Plugins]
 DictionaryEnabled=true
