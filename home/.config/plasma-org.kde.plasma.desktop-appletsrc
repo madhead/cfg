@@ -40,13 +40,16 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.icontasks
 
-[Containments][1][Applets][5]
-immutability=1
-plugin=org.kde.plasma.showdesktop
+[Containments][1][Applets][48][Configuration][General]
+launchers=file:///usr/share/applications/google-chrome.desktop,file:///home/madhead/.local/share/applications/krusader.desktop?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC2ElEQVRoge2XvW4TQRSFz511vEHYikJBAe4QEolLKiQKhERaoKHiBRAtQhQUloIELxDRUNDzBAkVLwBBKEgUiShcICRE4v2x9-fOpSC2nKyz3njGWSP8NZbujM6co529ew3MmfN_Q6OKzdbmbQY9JOD834oQAMjhfnX4KyAaXh_SIwVq7bTWtqdlvE8mwMr61lWw7ABYMNTejRbV9b1ndw4MdXJRmQrjPszNA8AVt6ffWtDJJROAgIsW9e-ttjafWNTLkH0ClhHgZbP1_ua09CvTEh4-I055A48335nJ0A9srL3JiJuJjkdA3d19qkBk3VQJj7ZcvF7bGK5O-wrJ3i_Z1lpWraiRPDhemmqA9gF9iBk3rAkKLh8vZa5Q9PN7TWsGRBudtd_pffbSxVtGIsOQAtx6xu_gQyYizTiOX_32w2Yv4XOm52khEZGRX_rBHtYIw0AJpJCmo5S-dKG-XavVnrqu-wU4GuArgBUT06chTVP4vg-RYuaHcRzn29LS0jWgP9OIuAB6di2eTBzHCMNwIvN9lpeXF4ko6t-p3Edtk16vh263a6zTbrcVcDYfsgFhGCKKIquaEwfodrtI07TQXhFBkiTQWmfqCwtmc-PEAdI0Rb1eNzo8iiJ0Oh1UKpNfhKkPc3kwM4jMXr-Jo1erVXied-I6MyOO49xOQ0TlXSHXdeG67si1KIoQhqGxuSJY70LT6DR5WAsgIgiCAEmS2JIshJUAIgLP88DMNuROhXEAZobv-5kef1YYBTAZyGwxcQAbA5kNJgpgayCzwakDnHWbHEfhAGW1yXEUCqC1hu_7pbTJcYwNwMzwPK_0l_UkcgMkSYIgCGbWPJAToD-QzTojA8xap8njSIBZ7TR5DAKUOZCZMAjQ6XRKG8hM6P8n1v-a-UajwcBhACKKlVKfyrVUHKXURyKKgaErVK1W7zLzc2ZulGdtPI7jtB3HeVG2jzlzZoU_jK9YK4CR2qMAAAAASUVORK5CYII%3D
 
-[Containments][1][Applets][6]
+[Containments][1][Applets][49]
 immutability=1
-plugin=org.kde.plasma.trash
+plugin=org.kde.redshiftControl
+
+[Containments][1][Applets][49][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][1][Applets][7]
 immutability=1
@@ -75,11 +78,11 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][ConfigDialog]
-DialogHeight=76
+DialogHeight=82
 DialogWidth=1920
 
 [Containments][1][General]
-AppletOrder=45;3;48;5;6;7;8
+AppletOrder=45;3;48;49;7;8
 
 [Containments][35]
 activityId=81c93729-2f5d-469a-a1ed-0f1c2b98d3f3
@@ -146,6 +149,14 @@ plugin=org.kde.plasma.bluetooth
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][8][ConfigDialog]
+DialogHeight=1006
+DialogWidth=1920
+
 [Containments][8][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier
+shownItems=KDE Daemon,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.networkmanagement
+
+[General]
+immutability=2
