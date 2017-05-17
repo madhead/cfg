@@ -146,6 +146,10 @@ DisabledSemiTransparent=true
 DisabledValue=1
 Size=32
 
+[DirSelect Dialog]
+DirSelectDialog Size=640,480
+History Items[$e]=file:$HOME/Books
+
 [General]
 BrowserApplication[$d]
 ColorScheme=Maia
@@ -187,7 +191,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=94
+Speedbar Width=101
 View Style=Simple
 listViewIconSize=0
 
