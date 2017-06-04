@@ -130,7 +130,7 @@ DisabledValue=1
 Size=32
 
 [General]
-BrowserApplication[$d]
+BrowserApplication[$e]=google-chrome.desktop
 ColorScheme=Maia
 Name=Maia
 UseSystemBell=true

@@ -148,10 +148,10 @@ Size=32
 
 [DirSelect Dialog]
 DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/Books
+History Items[$e]=file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Books
 
 [General]
-BrowserApplication[$d]
+BrowserApplication[$e]=google-chrome.desktop
 ColorScheme=Maia
 Name=Maia
 UseSystemBell=true
@@ -191,7 +191,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=101
+Speedbar Width=187
 View Style=Simple
 listViewIconSize=0
 
