@@ -1,0 +1,55 @@
+tasks:
+  lostfilm:
+    headers:
+      Cookie: "uid=4181041;usess=81f40c349994b0d12569471b2354f3f6"
+    rss:
+      url: http://retre.org/rssdd.xml
+      ascii: true
+    series:
+      - "American Gods"
+      - "The Handmaid's Tale"
+      - "Snatch"
+      - "Fargo"
+      - "Six"
+      - "Sneaky Pete"
+      - "Taboo"
+      - "The OA"
+      - "Incorporated"
+      - "Van Helsing"
+      - "Lethal Weapon"
+      - "The Night Manager"
+      - "War & Peace"
+      - "The Expanse"
+      - "Childhood's End"
+      - "Into the Badlands"
+      - "Limitless"
+      - "Narcos"
+      - "Mr. Robot"
+      - "The Making of the Mob"
+      - "Dark Matter"
+      - "Battle Creek"
+      - "The Man in the High Castle"
+      - "Marco Polo"
+      - "Star Wars Rebels"
+      - "Houdini"
+      - "The Musketeers"
+      - "Defiance"
+      - "Transporter"
+      - "Elementary"
+      - "Continuum"
+      - "Outcasts"
+      - "Sherlock"
+      - "Breaking Bad"
+      - "The IT Crowd"
+      - "Prison Break"
+      - "Lone Gunmen"
+      - "Farscape"
+    regexp:
+      reject:
+        - 1080p
+        - SD
+    download: /home/madhead/Downloads
+schedules:
+  - tasks: '*'
+    interval:
+      hours: 1
