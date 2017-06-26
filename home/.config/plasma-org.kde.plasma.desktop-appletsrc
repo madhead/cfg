@@ -141,6 +141,10 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][8][Applets][42][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][8][Applets][43]
 immutability=1
 plugin=org.kde.plasma.networkmanagement

@@ -3,7 +3,7 @@ tasks:
     headers:
       Cookie: "uid=4181041;usess=81f40c349994b0d12569471b2354f3f6"
     rss:
-      url: http://retre.org/rssdd.xml
+      url: 'http://retre.org/rssdd.xml'
       ascii: true
     series:
       - "American Gods"

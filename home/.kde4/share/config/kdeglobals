@@ -160,6 +160,9 @@ WheelScrollLines=3
 contrast=7
 widgetStyle=breeze
 
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
 [MainToolbarIcons]
 ActiveColor=169,156,255
 ActiveColor2=0,0,0
