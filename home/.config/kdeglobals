@@ -148,7 +148,7 @@ Size=32
 
 [DirSelect Dialog]
 DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/Downloads/devzen,file:$HOME/Downloads,file:$HOME/Videos/,file:$HOME/Videos,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Books
+History Items[$e]=file:$HOME/Videos/Leon,file:$HOME/Videos/Leon,file:$HOME/Downloads/devzen,file:$HOME/Downloads,file:$HOME/Videos/,file:$HOME/Videos,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Books
 
 [General]
 BrowserApplication[$e]=google-chrome.desktop
@@ -182,16 +182,17 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
+Preview Width=110
 Previews=false
 Show Bookmarks=false
 Show Full Path=false
-Show Preview=false
+Show Preview=true
 Show Speedbar=true
 Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=213
+Speedbar Width=225
 View Style=Simple
 listViewIconSize=0
 

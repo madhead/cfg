@@ -47,7 +47,7 @@ tasks:
     regexp:
       reject:
         - 1080p
-        - SD
+        - MP4
     download: /home/madhead/Downloads
 schedules:
   - tasks: '*'
