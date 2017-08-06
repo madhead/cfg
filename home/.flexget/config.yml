@@ -44,6 +44,7 @@ tasks:
       - "Prison Break"
       - "Lone Gunmen"
       - "Farscape"
+      - "StartUp"
     regexp:
       reject:
         - 1080p
