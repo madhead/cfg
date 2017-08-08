@@ -96,14 +96,36 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.slideshow
 
 [Containments][35][ConfigDialog]
 DialogHeight=999
 DialogWidth=1920
 
+[Containments][35][Wallpaper][General]
+Color=invalid
+FillMode=2
+Image=file:///usr/share/wallpapers/ColdRipple/contents/images/1920x1080.jpg
+SlideInterval=1
+SlidePaths=/home/madhead/Pictures/wallpapers/The Future is Now
+
 [Containments][35][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Maia/contents/images/1920x1080.png
+Color=invalid
+FillMode=2
+Image=file:///usr/share/wallpapers/ColdRipple/contents/images/1920x1080.jpg
+SlideInterval=1
+SlidePaths=\\0
+
+[Containments][35][Wallpaper][org.kde.potd][General]
+Color=invalid
+FillMode=2
+
+[Containments][35][Wallpaper][org.kde.slideshow][General]
+Color=invalid
+FillMode=2
+Image=file:///usr/share/wallpapers/ColdRipple/contents/images/1920x1080.jpg
+SlideInterval=600
+SlidePaths=/home/madhead/Pictures/wallpapers/The Future is Now
 
 [Containments][50]
 activityId=81c93729-2f5d-469a-a1ed-0f1c2b98d3f3
