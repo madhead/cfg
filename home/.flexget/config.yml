@@ -28,31 +28,31 @@ tasks:
     if:
       - "'SD' != category": reject
 
-      - "'Game of Thrones' == show": accept
+      # - "'Game of Thrones' == show": accept
       - "'Star Wars: Forces of Destiny' == show": accept
-      - "'The Mist' == show": accept
-      - "'Blood Drive' == show": accept
-      - "'American Gods' == show": accept
-      - "'The Handmaid''s Tale' == show": accept
+      # - "'The Mist' == show": accept
+      # - "'Blood Drive' == show": accept
+      # - "'American Gods' == show": accept
+      # - "'The Handmaid''s Tale' == show": accept
       - "'Snatch' == show": accept
       - "'Six' == show": accept
-      - "'Sneaky Pete' == show": accept
-      - "'Taboo' == show": accept
-      - "'Emerald City' == show": accept
-      - "'The OA' == show": accept
-      - "'Incorporated' == show": accept
-      - "'Frequency' == show": accept
-      - "'Timeless' == show": accept
-      - "'Van Helsing' == show": accept
+      # - "'Sneaky Pete' == show": accept
+      # - "'Taboo' == show": accept
+      # - "'Emerald City' == show": accept
+      # - "'The OA' == show": accept
+      # - "'Incorporated' == show": accept
+      # - "'Frequency' == show": accept
+      # - "'Timeless' == show": accept
+      # - "'Van Helsing' == show": accept
       - "'Lethal Weapon' == show": accept
       - "'StartUp' == show": accept
-      - "'Stranger Things' == show": accept
-      - "'Preacher' == show": accept
-      - "'The Night Manager' == show": accept
-      - "'11.22.63' == show": accept
-      - "'Billions' == show": accept
-      - "'Colony' == show": accept
-      - "'War & Peace' == show": accept
+      # - "'Stranger Things' == show": accept
+      # - "'Preacher' == show": accept
+      # - "'The Night Manager' == show": accept
+      # - "'11.22.63' == show": accept
+      # - "'Billions' == show": accept
+      # - "'Colony' == show": accept
+      # - "'War & Peace' == show": accept
       - "'The Expanse' == show": accept
       - "'Childhood''s End' == show": accept
       - "'Into the Badlands' == show": accept
@@ -60,81 +60,81 @@ tasks:
       - "'Limitless' == show": accept
       - "'Narcos' == show": accept
       - "'Mr. Robot' == show": accept
-      - "'Killjoys' == show": accept
+      # - "'Killjoys' == show": accept
       - "'The Making of the Mob' == show": accept
-      - "'Humans' == show": accept
+      # - "'Humans' == show": accept
       - "'Dark Matter' == show": accept
       - "'Battle Creek' == show": accept
       - "'The Man in the High Castle' == show": accept
       - "'Marco Polo' == show": accept
       - "'Star Wars Rebels' == show": accept
-      - "'Forever' == show": accept
+      # - "'Forever' == show": accept
       - "'Houdini' == show": accept
-      - "'Extant' == show": accept
-      - "'Crossbones' == show": accept
+      # - "'Extant' == show": accept
+      # - "'Crossbones' == show": accept
       - "'Fargo' == show": accept
-      - "'From Dusk Till Dawn' == show": accept
+      # - "'From Dusk Till Dawn' == show": accept
       - "'Fleming: The Man Who Would Be Bond' == show": accept
       - "'The Musketeers' == show": accept
-      - "'Helix' == show": accept
-      - "'Intelligence' == show": accept
-      - "'Mob City' == show": accept
-      - "'Almost Human' == show": accept
-      - "'The Tomorrow People' == show": accept
-      - "'Under the Dome' == show": accept
+      # - "'Helix' == show": accept
+      # - "'Intelligence' == show": accept
+      # - "'Mob City' == show": accept
+      # - "'Almost Human' == show": accept
+      # - "'The Tomorrow People' == show": accept
+      # - "'Under the Dome' == show": accept
       - "'Defiance' == show": accept
-      - "'Vikings' == show": accept
-      - "'Cult' == show": accept
-      - "'Utopia' == show": accept
-      - "'Chosen' == show": accept
+      # - "'Vikings' == show": accept
+      # - "'Cult' == show": accept
+      # - "'Utopia' == show": accept
+      # - "'Chosen' == show": accept
       - "'Transporter' == show": accept
       - "'A Young Doctor''s Notebook' == show": accept
       - "'Elementary' == show": accept
       - "'Continuum' == show": accept
-      - "'Touch' == show": accept
+      # - "'Touch' == show": accept
       - "'Falling Skies' == show": accept
-      - "'Game of Thrones' == show": accept
-      - "'Mortal Kombat: Legacy' == show": accept
-      - "'Endgame' == show": accept
-      - "'Outcasts' == show": accept
-      - "'Spartacus: Gods of the Arena' == show": accept
-      - "'The Walking Dead' == show": accept
+      # - "'Game of Thrones' == show": accept
+      # - "'Mortal Kombat: Legacy' == show": accept
+      # - "'Endgame' == show": accept
+      # - "'Outcasts' == show": accept
+      # - "'Spartacus: Gods of the Arena' == show": accept
+      # - "'The Walking Dead' == show": accept
       - "'Sherlock' == show": accept
-      - "'Spartacus: Blood and Sand' == show": accept
-      - "'Spartacus: Vengeance' == show": accept
-      - "'Spartacus: War of the Damned' == show": accept
-      - "'The Prisoner' == show": accept
-      - "'V' == show": accept
-      - "'Stargate: Universe' == show": accept
-      - "'FlashForward' == show": accept
-      - "'Defying Gravity' == show": accept
-      - "'Castle' == show": accept
-      - "'Lie to me' == show": accept
-      - "'The Sarah Connor Chronicles' == show": accept
+      # - "'Spartacus: Blood and Sand' == show": accept
+      # - "'Spartacus: Vengeance' == show": accept
+      # - "'Spartacus: War of the Damned' == show": accept
+      # - "'The Prisoner' == show": accept
+      # - "'V' == show": accept
+      # - "'Stargate: Universe' == show": accept
+      # - "'FlashForward' == show": accept
+      # - "'Defying Gravity' == show": accept
+      # - "'Castle' == show": accept
+      # - "'Lie to me' == show": accept
+      # - "'The Sarah Connor Chronicles' == show": accept
       - "'Star Wars: The Clone Wars' == show": accept
       - "'Breaking Bad' == show": accept
-      - "'Tin Man' == show": accept
-      - "'Journeyman' == show": accept
-      - "'Masters of Science Fiction' == show": accept
-      - "'Wilfred' == show": accept
-      - "'Dexter' == show": accept
-      - "'The IT Crowd' == show": accept
+      # - "'Tin Man' == show": accept
+      # - "'Journeyman' == show": accept
+      # - "'Masters of Science Fiction' == show": accept
+      # - "'Wilfred' == show": accept
+      # - "'Dexter' == show": accept
+      # - "'The IT Crowd' == show": accept
       - "'Prison Break' == show": accept
-      - "'Rome' == show": accept
-      - "'BattleStar Galactica' == show": accept
-      - "'House M.D.' == show": accept
-      - "'Stargate: Atlantis' == show": accept
-      - "'Firefly' == show": accept
-      - "'Star Trek: Enterprise' == show": accept
-      - "'Lone Gunmen' == show": accept
-      - "'Andromeda' == show": accept
-      - "'Futurama' == show": accept
-      - "'Farscape' == show": accept
-      - "'StarGate SG-1' == show": accept
-      - "'Friends' == show": accept
-      - "'Babylon 5' == show": accept
-      - "'Quantum leap' == show": accept
-      - "'Star Trek: The Original Series' == show": accept
+      # - "'Rome' == show": accept
+      # - "'BattleStar Galactica' == show": accept
+      # - "'House M.D.' == show": accept
+      # - "'Stargate: Atlantis' == show": accept
+      # - "'Firefly' == show": accept
+      # - "'Star Trek: Enterprise' == show": accept
+      # - "'Lone Gunmen' == show": accept
+      # - "'Andromeda' == show": accept
+      # - "'Futurama' == show": accept
+      # - "'Farscape' == show": accept
+      # - "'StarGate SG-1' == show": accept
+      # - "'Friends' == show": accept
+      # - "'Babylon 5' == show": accept
+      # - "'Quantum leap' == show": accept
+      # - "'Star Trek: The Original Series' == show": accept
 
     # Variables for qBittorrent
     set:
