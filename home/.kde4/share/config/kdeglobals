@@ -129,6 +129,10 @@ DisabledSemiTransparent=true
 DisabledValue=1
 Size=32
 
+[DirSelect Dialog]
+DirSelectDialog Size=800,599
+History Items[$e]=file://$HOME/Downloads/03_2107AD_The_Future_is_Now_OST/MP3,file://$HOME/Music/2107AD_The_Future_is_Now_OST
+
 [General]
 BrowserApplication[$e]=google-chrome.desktop
 ColorScheme=Maia
@@ -142,7 +146,7 @@ font=Noto Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
-toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=breeze
 
 [Icons]
@@ -175,7 +179,7 @@ Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=96
+Speedbar Width=98
 View Style=Simple
 listViewIconSize=0
 

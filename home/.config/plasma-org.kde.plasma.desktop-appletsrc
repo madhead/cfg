@@ -32,6 +32,7 @@ plugin=org.kde.plasma.kickerdash
 
 [Containments][1][Applets][45][Configuration][General]
 favoriteApps=systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+favoritesPortedToKAstats=true
 
 [Containments][1][Applets][45][Shortcuts]
 global=Alt+F1
@@ -102,6 +103,9 @@ wallpaperplugin=org.kde.slideshow
 DialogHeight=999
 DialogWidth=1920
 
+[Containments][35][General]
+pressToMoveHelp=false
+
 [Containments][35][Wallpaper][General]
 Color=invalid
 FillMode=2
@@ -110,9 +114,9 @@ SlideInterval=1
 SlidePaths=/home/madhead/Pictures/wallpapers/The Future is Now
 
 [Containments][35][Wallpaper][org.kde.image][General]
-Color=invalid
-FillMode=2
-Image=file:///usr/share/wallpapers/ColdRipple/contents/images/1920x1080.jpg
+Color=#000
+FillMode=1
+Image=file:///home/madhead/.cache/himawaripy/himawari-20171014T180000.png
 SlideInterval=1
 SlidePaths=\\0
 
@@ -121,9 +125,8 @@ Color=invalid
 FillMode=2
 
 [Containments][35][Wallpaper][org.kde.slideshow][General]
-Color=invalid
-FillMode=2
-Image=file:///usr/share/wallpapers/ColdRipple/contents/images/1920x1080.jpg
+FillMode=1
+Image=file:///home/madhead/.cache/himawaripy/himawari-20171015T004000.png
 SlideInterval=600
 SlidePaths=/home/madhead/Pictures/wallpapers/The Future is Now
 
@@ -135,6 +138,11 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][50][Wallpaper][org.kde.image][General]
+Color=#000
+FillMode=1
+Image=file:///home/madhead/.cache/himawaripy/himawari-20171014T180000.png
 
 [Containments][8]
 activityId=
@@ -148,6 +156,10 @@ wallpaperplugin=org.kde.image
 [Containments][8][Applets][36]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][8][Applets][36][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][8][Applets][37]
 immutability=1

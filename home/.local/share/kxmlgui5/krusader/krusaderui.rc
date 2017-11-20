@@ -1,5 +1,5 @@
 <!DOCTYPE kpartgui>
-<kpartgui name="krusader" version="27">
+<kpartgui version="27" name="krusader">
  <MenuBar>
   <Menu name="file">
    <text>&amp;File</text>
@@ -125,7 +125,7 @@
    <Separator/>
    -->
   </Menu>
-  <Menu name="settings" noMerge="1">
+  <Menu noMerge="1" name="settings">
    <text>&amp;Settings</text>
    <!-- Show Menubar -->
    <Action name="options_show_menubar"/>
@@ -179,7 +179,7 @@
    <text>&amp;Help</text>
   </Menu>
  </MenuBar>
- <ToolBar fullWidth="true" name="mainToolBar" noMerge="1" iconText="icononly">
+ <ToolBar noMerge="1" name="mainToolBar" fullWidth="true" iconText="icononly">
   <text>Main Toolbar</text>
   <Action name="go_back"/>
   <Action name="go_forward"/>
@@ -206,60 +206,60 @@
   <Action name="zoom_in"/>
   <Action name="zoom_out"/>
  </ToolBar>
- <ToolBar fullWidth="false" name="jobToolBar" noMerge="1" iconText="icononly">
+ <ToolBar noMerge="1" name="jobToolBar" fullWidth="false" iconText="icononly">
   <text>Job Toolbar</text>
   <Action name="job progress"/>
   <Action name="job control"/>
   <Action name="job undo"/>
  </ToolBar>
- <ToolBar fullWidth="false" name="actionsToolBar" noMerge="1" iconText="icononly">
+ <ToolBar noMerge="1" name="actionsToolBar" fullWidth="false" iconText="icononly">
   <text>Actions Toolbar</text>
  </ToolBar>
  <ActionProperties>
-  <Action accel="" name="sysinfo"/>
-  <Action name="F9_Terminal" shortcut="Ctrl+Shift+T"/>
-  <Action name="calculate" shortcut=""/>
-  <Action name="cancel refresh" shortcut=""/>
-  <Action name="close duplicated tabs" shortcut=""/>
-  <Action name="close inactive tabs" shortcut=""/>
-  <Action name="combine" shortcut=""/>
-  <Action name="compare" shortcut=""/>
-  <Action name="create checksum" shortcut=""/>
-  <Action name="default_zoom" shortcut=""/>
-  <Action name="emptytrash" shortcut=""/>
-  <Action name="exec_collect_separate" shortcut=""/>
-  <Action name="exec_collect_together" shortcut=""/>
-  <Action name="exec_start_and_forget" shortcut=""/>
-  <Action name="exec_terminal_embedded" shortcut=""/>
-  <Action name="exec_terminal_external" shortcut=""/>
-  <Action name="focus_panel" shortcut=""/>
-  <Action name="konfigurator" shortcut=""/>
-  <Action name="left bookmarks" shortcut=""/>
-  <Action name="lock tab" shortcut=""/>
-  <Action name="manage useractions" shortcut=""/>
-  <Action name="match checksum" shortcut=""/>
-  <Action name="restore_selection" shortcut=""/>
-  <Action name="right bookmarks" shortcut=""/>
-  <Action name="save position" shortcut=""/>
-  <Action name="select_different" shortcut=""/>
-  <Action name="select_different_and_single" shortcut=""/>
-  <Action name="select_newer" shortcut=""/>
-  <Action name="select_newer_and_single" shortcut=""/>
-  <Action name="select_same_base_name" shortcut=""/>
-  <Action name="select_same_extension" shortcut=""/>
-  <Action name="select_single" shortcut=""/>
-  <Action name="show_view_options_menu" shortcut=""/>
-  <Action name="terminal@home" shortcut=""/>
-  <Action name="toggle command line" shortcut=""/>
-  <Action name="toggle fn bar" shortcut=""/>
-  <Action name="toggle previews" shortcut=""/>
-  <Action name="trashbin" shortcut=""/>
-  <Action name="view_apply_settings_to_others" shortcut=""/>
-  <Action name="view_save_default_settings" shortcut=""/>
-  <Action name="zoom_in" shortcut=""/>
-  <Action name="zoom_out" shortcut=""/>
-  <Action name="next tab" shortcut="Ctrl+Tab; Ctrl+]"/>
-  <Action name="previous tab" shortcut="Ctrl+Shift+Tab; Ctrl+["/>
+  <Action name="sysinfo" accel=""/>
+  <Action shortcut="Ctrl+Shift+T" name="F9_Terminal"/>
+  <Action shortcut="" name="calculate"/>
+  <Action shortcut="" name="cancel refresh"/>
+  <Action shortcut="" name="close duplicated tabs"/>
+  <Action shortcut="" name="close inactive tabs"/>
+  <Action shortcut="" name="combine"/>
+  <Action shortcut="" name="compare"/>
+  <Action shortcut="" name="create checksum"/>
+  <Action shortcut="" name="default_zoom"/>
+  <Action shortcut="" name="emptytrash"/>
+  <Action shortcut="" name="exec_collect_separate"/>
+  <Action shortcut="" name="exec_collect_together"/>
+  <Action shortcut="" name="exec_start_and_forget"/>
+  <Action shortcut="" name="exec_terminal_embedded"/>
+  <Action shortcut="" name="exec_terminal_external"/>
+  <Action shortcut="" name="focus_panel"/>
+  <Action shortcut="" name="konfigurator"/>
+  <Action shortcut="" name="left bookmarks"/>
+  <Action shortcut="" name="lock tab"/>
+  <Action shortcut="" name="manage useractions"/>
+  <Action shortcut="" name="match checksum"/>
+  <Action shortcut="" name="restore_selection"/>
+  <Action shortcut="" name="right bookmarks"/>
+  <Action shortcut="" name="save position"/>
+  <Action shortcut="" name="select_different"/>
+  <Action shortcut="" name="select_different_and_single"/>
+  <Action shortcut="" name="select_newer"/>
+  <Action shortcut="" name="select_newer_and_single"/>
+  <Action shortcut="" name="select_same_base_name"/>
+  <Action shortcut="" name="select_same_extension"/>
+  <Action shortcut="" name="select_single"/>
+  <Action shortcut="" name="show_view_options_menu"/>
+  <Action shortcut="" name="terminal@home"/>
+  <Action shortcut="" name="toggle command line"/>
+  <Action shortcut="" name="toggle fn bar"/>
+  <Action shortcut="" name="toggle previews"/>
+  <Action shortcut="" name="trashbin"/>
+  <Action shortcut="" name="view_apply_settings_to_others"/>
+  <Action shortcut="" name="view_save_default_settings"/>
+  <Action shortcut="+" name="zoom_in"/>
+  <Action shortcut="_" name="zoom_out"/>
+  <Action shortcut="Ctrl+Tab; Ctrl+]" name="next tab"/>
+  <Action shortcut="Ctrl+Shift+Tab; Ctrl+[" name="previous tab"/>
  </ActionProperties>
 </kpartgui>
 <!--
