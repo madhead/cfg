@@ -46,7 +46,7 @@ tasks:
       # - "'Van Helsing' == show": accept
       - "'Lethal Weapon' == show": accept
       - "'StartUp' == show": accept
-      # - "'Stranger Things' == show": accept
+      - "'Stranger Things' == show": accept
       # - "'Preacher' == show": accept
       # - "'The Night Manager' == show": accept
       # - "'11.22.63' == show": accept
