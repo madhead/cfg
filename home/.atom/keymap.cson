@@ -2,7 +2,8 @@
 #
 # Atom keymaps work similarly to style sheets. Just as style sheets use
 # selectors to apply styles to elements, Atom keymaps use selectors to associate
-# keystrokes with events in specific contexts.
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
 #
 # You can create a new keybinding in this file by typing "key" and then hitting
 # tab.
@@ -17,38 +18,23 @@
 #   'ctrl-p': 'core:move-down'
 #
 # You can find more information about keymaps in these guides:
-# * https://atom.io/docs/latest/customizing-atom#customizing-key-bindings
-# * https://atom.io/docs/latest/advanced/keymaps
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
 #
 # This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it here:
-# https://github.com/bevry/cson#what-is-cson
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-alt-down': 'editor:duplicate-lines'
+  'alt-up': 'editor:move-line-up'
+  'alt-down': 'editor:move-line-down'
+  'ctrl-down': 'editor:add-selection-below'
+  'ctrl-up': 'editor:add-selection-above'
 'atom-text-editor:not([mini])':
   'ctrl-d': 'editor:delete-line'
-
-'atom-workspace, atom-workspace atom-text-editor':
-  'alt-m': 'markdown-preview:toggle'
-
-'atom-workspace atom-text-editor:not([mini])':
-  'alt-up': 'editor:move-line-up',
-  'alt-down': 'editor:move-line-down'
-  'ctrl-up': 'editor:add-selection-above'
-  'ctrl-down': 'editor:add-selection-below'
-  'ctrl-alt-down': 'editor:duplicate-lines'
-
-'.platform-darwin, .platform-win32, .platform-linux, .platform-darwin atom-text-editor, .platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'ctrl-l': 'go-to-line:toggle'
-
-'atom-text-editor':
-  'ctrl-alt-l': 'atom-beautify:beautify-editor'
-
-'body':
-  'ctrl-shift-i': 'window:toggle-dev-tools'
-  'ctrl-tab ^ctrl': 'unset!'
-  'ctrl-shift-tab ^ctrl': 'unset!'
-  'ctrl-tab': 'pane:show-next-item'
-  'ctrl-shift-tab': 'pane:show-previous-item'
-
-'.tree-view':
-  'ctrl-shift-n f': 'tree-view:add-file'
-  'ctrl-shift-n d': 'tree-view:add-folder'
