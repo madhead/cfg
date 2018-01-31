@@ -1,0 +1,20 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#7e57c2"
+      accentColor: "#b0e457"
+      predefinedColor: "Purple"
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  "exception-reporting":
+    userId: "3c8b6fc7-ceba-43fb-b2f9-0238e23ee4b8"
