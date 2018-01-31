@@ -135,6 +135,7 @@ tasks:
       # - "'Babylon 5' == show": accept
       # - "'Quantum leap' == show": accept
       # - "'Star Trek: The Original Series' == show": accept
+      - "'Philip K. Dick''s Electric Dreams' == show": accept
 
     # Variables for qBittorrent
     set:

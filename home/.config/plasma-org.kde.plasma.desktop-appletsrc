@@ -46,7 +46,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][48][Configuration][General]
-launchers=file:///usr/share/applications/google-chrome.desktop,applications:org.kde.krusader.desktop
+launchers=file:///usr/share/applications/google-chrome.desktop,applications:thunderbird.desktop,applications:org.kde.krusader.desktop
 
 [Containments][1][Applets][7]
 immutability=1
@@ -92,7 +92,7 @@ plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.slideshow
 
 [Containments][35][ConfigDialog]
-DialogHeight=999
+DialogHeight=1001
 DialogWidth=1920
 
 [Containments][35][General]
@@ -101,24 +101,26 @@ pressToMoveHelp=false
 [Containments][35][Wallpaper][General]
 Color=invalid
 FillMode=2
-Image=file:///usr/share/wallpapers/ColdRipple/contents/images/1920x1080.jpg
+Image=/home/madhead/Downloads/unprocessed_media/photostocks/DSC00068.jpg
 SlideInterval=1
 SlidePaths=/home/madhead/Pictures/wallpapers/The Future is Now
 
 [Containments][35][Wallpaper][org.kde.image][General]
-Color=#000
-FillMode=1
-Image=file:///home/madhead/.cache/himawaripy/himawari-20171014T180000.png
+Color=invalid
+FillMode=2
+Image=/home/madhead/Downloads/unprocessed_media/photostocks/DSC00068.jpg
 SlideInterval=1
 SlidePaths=\\0
 
 [Containments][35][Wallpaper][org.kde.potd][General]
 Color=invalid
 FillMode=2
+Provider=wcpotd
 
 [Containments][35][Wallpaper][org.kde.slideshow][General]
-FillMode=1
-Image=file:///home/madhead/.cache/himawaripy/himawari-20171015T004000.png
+Color=invalid
+FillMode=2
+Image=/home/madhead/Downloads/unprocessed_media/photostocks/DSC00068.jpg
 SlideInterval=600
 SlidePaths=/home/madhead/Pictures/wallpapers/The Future is Now
 
