@@ -30,5 +30,6 @@
   "exception-reporting":
     userId: "3c8b6fc7-ceba-43fb-b2f9-0238e23ee4b8"
   "git-diff": {}
+  minimap: {}
   welcome:
     showOnStartup: false
