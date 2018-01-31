@@ -10,6 +10,17 @@
       panelContrast: true
       panelShadows: true
   core:
+    disabledPackages: [
+      "autoflow"
+      "autosave"
+      "github"
+      "language-coffee-script"
+      "language-csharp"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "open-on-github"
+    ]
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
@@ -18,3 +29,6 @@
     uriHandlerRegistration: "always"
   "exception-reporting":
     userId: "3c8b6fc7-ceba-43fb-b2f9-0238e23ee4b8"
+  "git-diff": {}
+  welcome:
+    showOnStartup: false
