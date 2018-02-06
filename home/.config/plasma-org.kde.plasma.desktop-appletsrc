@@ -92,8 +92,8 @@ plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.slideshow
 
 [Containments][35][ConfigDialog]
-DialogHeight=1001
-DialogWidth=1920
+DialogHeight=653
+DialogWidth=1272
 
 [Containments][35][General]
 pressToMoveHelp=false
