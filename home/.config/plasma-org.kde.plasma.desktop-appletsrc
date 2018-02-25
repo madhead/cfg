@@ -138,6 +138,15 @@ Color=#000
 FillMode=1
 Image=file:///home/madhead/.cache/himawaripy/himawari-20171014T180000.png
 
+[Containments][53]
+activityId=81c93729-2f5d-469a-a1ed-0f1c2b98d3f3
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [Containments][8]
 activityId=
 formfactor=2
@@ -210,3 +219,6 @@ shownItems=KDE Daemon,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.v
 
 [General]
 immutability=2
+
+[ScreenMapping]
+screenMapping=
