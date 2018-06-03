@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "ea9f6024-a6e4-4c3a-a6e9-1775c12d0f57"
   "atom-material-ui":
     colors:
       abaseColor: "#7e57c2"
@@ -21,6 +24,9 @@
       "language-php"
       "open-on-github"
     ]
+    packagesWithKeymapsDisabled: [
+      "atom-beautify"
+    ]
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
@@ -33,5 +39,6 @@
     userId: "3c8b6fc7-ceba-43fb-b2f9-0238e23ee4b8"
   "git-diff": {}
   minimap: {}
+  "tree-view": {}
   welcome:
     showOnStartup: false

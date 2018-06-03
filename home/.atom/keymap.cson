@@ -38,3 +38,5 @@
   'ctrl-up': 'editor:add-selection-above'
 'atom-text-editor:not([mini])':
   'ctrl-d': 'editor:delete-line'
+'atom-text-editor':
+  'ctrl-alt-l': 'atom-beautify:beautify-editor'
