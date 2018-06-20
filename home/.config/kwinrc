@@ -153,4 +153,4 @@ ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.breeze
-theme[$d]
+theme=

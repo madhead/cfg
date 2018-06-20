@@ -23,12 +23,18 @@ favorites=firefox.desktop,org.kde.dolphin.desktop,org.kde.konversation.desktop,l
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][1][Applets][3][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][4][Configuration][General]
 launchers=file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=dolphin
 
 [Containments][1][Applets][45]
 immutability=1
 plugin=org.kde.plasma.kickerdash
+
+[Containments][1][Applets][45][Configuration]
+PreloadWeight=0
 
 [Containments][1][Applets][45][Configuration][General]
 favoriteApps=systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
@@ -40,6 +46,9 @@ global=Alt+F1
 [Containments][1][Applets][48]
 immutability=1
 plugin=org.kde.plasma.icontasks
+
+[Containments][1][Applets][48][Configuration]
+PreloadWeight=0
 
 [Containments][1][Applets][48][Configuration][ConfigDialog]
 DialogHeight=540
@@ -53,6 +62,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
+PreloadWeight=15
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -62,6 +72,9 @@ location=4
 [Containments][1][Applets][8]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][1][Applets][8][Configuration]
+PreloadWeight=0
 
 [Containments][1][Applets][8][Configuration][Appearance]
 enabledCalendarPlugins=/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so
@@ -79,6 +92,9 @@ DialogWidth=720
 DialogHeight=82
 DialogWidth=1920
 
+[Containments][1][Configuration]
+PreloadWeight=0
+
 [Containments][1][General]
 AppletOrder=45;3;48;7;8
 
@@ -94,6 +110,9 @@ wallpaperplugin=org.kde.slideshow
 [Containments][35][ConfigDialog]
 DialogHeight=653
 DialogWidth=1272
+
+[Containments][35][Configuration]
+PreloadWeight=0
 
 [Containments][35][General]
 pressToMoveHelp=false
@@ -133,6 +152,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][50][Configuration]
+PreloadWeight=0
+
 [Containments][50][Wallpaper][org.kde.image][General]
 Color=#000
 FillMode=1
@@ -147,6 +169,21 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][53][Configuration]
+PreloadWeight=0
+
+[Containments][54]
+activityId=81c93729-2f5d-469a-a1ed-0f1c2b98d3f3
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][54][Configuration]
+PreloadWeight=0
+
 [Containments][8]
 activityId=
 formfactor=2
@@ -160,6 +197,9 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][8][Applets][36][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -168,25 +208,43 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][8][Applets][37][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][38]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][8][Applets][38][Configuration]
+PreloadWeight=15
 
 [Containments][8][Applets][39]
 immutability=1
 plugin=org.kde.kdeconnect
 
+[Containments][8][Applets][39][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][40]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][8][Applets][40][Configuration]
+PreloadWeight=0
 
 [Containments][8][Applets][41]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
+[Containments][8][Applets][41][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][42]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][8][Applets][42][Configuration]
+PreloadWeight=0
 
 [Containments][8][Applets][42][Configuration][ConfigDialog]
 DialogHeight=540
@@ -196,21 +254,36 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][8][Applets][43][Configuration]
+PreloadWeight=5
+
 [Containments][8][Applets][44]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][8][Applets][44][Configuration]
+PreloadWeight=0
 
 [Containments][8][Applets][49]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][8][Applets][49][Configuration]
+PreloadWeight=0
+
 [Containments][8][Applets][52]
 immutability=1
 plugin=org.kde.redshiftControl
 
+[Containments][8][Applets][52][Configuration]
+PreloadWeight=0
+
 [Containments][8][ConfigDialog]
 DialogHeight=1001
 DialogWidth=1920
+
+[Containments][8][Configuration]
+PreloadWeight=0
 
 [Containments][8][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.redshiftControl
@@ -221,4 +294,5 @@ shownItems=KDE Daemon,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.v
 immutability=2
 
 [ScreenMapping]
+itemsOnDisabledScreens=2,1,desktop:/steam.desktop
 screenMapping=
