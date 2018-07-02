@@ -1,4 +1,8 @@
+asciidoc-preview@2.11.0
+atom-beautify@0.32.5
 atom-material-syntax@1.0.8
 atom-material-ui@2.1.1
+language-asciidoc@1.11.0
 minimap@4.29.7
+revert-buffer@0.6.0
 
