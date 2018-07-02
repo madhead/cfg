@@ -1,5 +1,5 @@
 [$Version]
-update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,filepicker.upd:filepicker-remove-old-previews-entry
 
 [Appmenu Style]
 Style=InApplication
@@ -178,15 +178,16 @@ contrast=7
 widgetStyle=breeze
 
 [KFileDialog Settings]
-Automatically select filename extension=false
+Automatically select filename extension=true
 Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Preview Width=139
-Previews=false
+Previews[$d]
 Show Bookmarks=false
 Show Full Path=false
+Show Inline Previews=true
 Show Preview=true
 Show Speedbar=true
 Show hidden files=true

@@ -3,7 +3,7 @@ Indexing-Enabled=true
 
 [General]
 dbVersion=2
-exclude filters=CMakeCache.txt,confstat,*~,libtool,config.status,*.elc,__pycache__,*.swap,litmain.sh,.svn,CMakeFiles,.xsession-errors*,*.omf,.moc,conftest,qrc_*.cpp,*.rej,.git,.histfile.*,*.o,*.nvram,*.csproj,CMakeTmpQmake,po,lost+found,*.pc,autom4te,*.vm*,Makefile.am,*.gmo,.uic,core-dumps,*.rcore,moc_*.cpp,*.moc,.hg,*.aux,lzo,*.loT,CTestTestfile.cmake,*.part,*.tmp,.pch,ui_*.h,cmake_install.cmake,*.class,.obj,*.la,*.pyc,*.orig,CVS,.bzr,CMakeTmp,*.lo,*.m4,_darcs,confdefs.h,*.po
-exclude filters version=2
+exclude filters=po,confstat,*.tmp,*.pyc,*.aux,Makefile.am,node_modules,*.loT,*.nvram,CTestTestfile.cmake,.git,*.qmlc,*.o,.moc,*~,CMakeCache.txt,CVS,*.jsc,config.status,*.qrc,*.swap,*.elc,*.ini,*.rcore,*.so,*.init,nbproject,*.csproj,*.class,moc_*.cpp,.histfile.*,*.part,CMakeFiles,_darcs,*.a,.xsession-errors*,CMakeTmpQmake,*.omf,*.m4,*.pc,.obj,*.orig,qrc_*.cpp,lzo,.svn,autom4te,.pch,.uic,*.vm*,CMakeTmp,*.moc,*.po,ui_*.h,node_packages,*.la,__pycache__,*.map,confdefs.h,lost+found,litmain.sh,.npm,.hg,core-dumps,libtool,cmake_install.cmake,*.lo,*.db,.yarn,*.pyo,*.rej,*.gmo,.yarn-cache,.bzr,conftest
+exclude filters version=3
 first run=false
 folders[$e]=$HOME/
