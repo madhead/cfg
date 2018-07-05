@@ -62,7 +62,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=0
+PreloadWeight=9
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -74,7 +74,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][8][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][1][Applets][8][Configuration][Appearance]
 enabledCalendarPlugins=/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so
@@ -223,7 +223,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][8][Applets][39][Configuration]
-PreloadWeight=0
+PreloadWeight=4
 
 [Containments][8][Applets][40]
 immutability=1
@@ -289,6 +289,9 @@ DialogWidth=720
 [Containments][8][Applets][55]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
+
+[Containments][8][Applets][55][Configuration]
+PreloadWeight=18
 
 [Containments][8][ConfigDialog]
 DialogHeight=1001
