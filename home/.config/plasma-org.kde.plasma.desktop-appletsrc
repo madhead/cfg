@@ -39,6 +39,7 @@ PreloadWeight=0
 [Containments][1][Applets][45][Configuration][General]
 favoriteApps=systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
 favoritesPortedToKAstats=true
+hiddenApplications=chrome-hadgilakbfohcfcgfbioeeehgpkopaga-Default.desktop
 
 [Containments][1][Applets][45][Shortcuts]
 global=Alt+F1
@@ -55,14 +56,15 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][48][Configuration][General]
-launchers=file:///usr/share/applications/google-chrome.desktop,applications:thunderbird.desktop,applications:org.kde.krusader.desktop
+launchers=file:///usr/share/applications/google-chrome.desktop,applications:telegramdesktop.desktop,applications:org.kde.krusader.desktop
+middleClickAction=ToggleGrouping
 
 [Containments][1][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=9
+PreloadWeight=12
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -74,7 +76,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][8][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][1][Applets][8][Configuration][Appearance]
 enabledCalendarPlugins=/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so
@@ -115,6 +117,8 @@ DialogWidth=1272
 PreloadWeight=0
 
 [Containments][35][General]
+ToolBoxButtonState=topright
+ToolBoxButtonX=1892
 pressToMoveHelp=false
 
 [Containments][35][Wallpaper][General]
@@ -216,14 +220,14 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][38][Configuration]
-PreloadWeight=0
+PreloadWeight=15
 
 [Containments][8][Applets][39]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][8][Applets][39][Configuration]
-PreloadWeight=4
+PreloadWeight=0
 
 [Containments][8][Applets][40]
 immutability=1
@@ -255,7 +259,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][43][Configuration]
-PreloadWeight=0
+PreloadWeight=7
 
 [Containments][8][Applets][44]
 immutability=1
@@ -291,7 +295,11 @@ immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][8][Applets][55][Configuration]
-PreloadWeight=18
+PreloadWeight=0
+
+[Containments][8][Applets][55][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][8][ConfigDialog]
 DialogHeight=1001
@@ -303,7 +311,7 @@ PreloadWeight=0
 [Containments][8][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.redshiftControl,org.kde.plasma.keyboardindicator
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator
-shownItems=KDE Daemon,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.networkmanagement,Toolbox,qBittorrent,org.kde.redshiftControl
+shownItems=KDE Daemon,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.networkmanagement,Toolbox,qBittorrent,org.kde.redshiftControl,org.kde.plasma.devicenotifier
 
 [General]
 immutability=2
