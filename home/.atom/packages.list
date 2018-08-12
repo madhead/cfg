@@ -6,7 +6,6 @@ busy-signal@1.4.3
 intentions@1.1.5
 language-asciidoc@1.11.0
 linter@2.0.0
-linter-proselint@3.3.0
 linter-ui-default@1.7.1
 minimap@4.29.7
 revert-buffer@0.6.0
