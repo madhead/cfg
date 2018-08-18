@@ -12,7 +12,7 @@ _k_friendly_name=Accessibility
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
 Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
-_k_friendly_name=System Settings
+_k_friendly_name=KDE Daemon
 
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
@@ -221,6 +221,7 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 46=Alt+F1,none,Activate Application Dashboard Widget
+activate widget 48=none,none,Activate Digital Clock Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
