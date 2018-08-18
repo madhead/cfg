@@ -1,6 +1,0 @@
-[Event/GetReady]
-Action=Sound|Popup
-Execute=
-Logfile=
-Sound=
-TTS=

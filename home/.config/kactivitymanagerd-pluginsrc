@@ -1,6 +1,0 @@
-[Plugin-org.kde.ActivityManager.Resources.Scoring]
-allowed-applications=kate,krusader,libreoffice-calc,okular,okularapplication_pdf,org.kde.kate,org.kde.krunner,org.kde.plasma.kicker
-blocked-applications=
-blocked-by-default=false
-keep-history-for=0
-what-to-remember=0

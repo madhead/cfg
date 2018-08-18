@@ -1,5 +1,0 @@
-[Event/NewMessage]
-Action=Sound|Popup
-Execute=
-Logfile=
-TTS=

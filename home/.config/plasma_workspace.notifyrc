@@ -1,5 +1,0 @@
-[Event/fatalerror]
-Action=Sound|Popup
-Execute=
-Logfile=
-TTS=

@@ -1,9 +1,5 @@
-[Basic Settings]
-Indexing-Enabled=true
-
 [General]
 dbVersion=2
-exclude filters=po,confstat,*.tmp,*.pyc,*.aux,Makefile.am,node_modules,*.loT,*.nvram,CTestTestfile.cmake,.git,*.qmlc,*.o,.moc,*~,CMakeCache.txt,CVS,*.jsc,config.status,*.qrc,*.swap,*.elc,*.ini,*.rcore,*.so,*.init,nbproject,*.csproj,*.class,moc_*.cpp,.histfile.*,*.part,CMakeFiles,_darcs,*.a,.xsession-errors*,CMakeTmpQmake,*.omf,*.m4,*.pc,.obj,*.orig,qrc_*.cpp,lzo,.svn,autom4te,.pch,.uic,*.vm*,CMakeTmp,*.moc,*.po,ui_*.h,node_packages,*.la,__pycache__,*.map,confdefs.h,lost+found,litmain.sh,.npm,.hg,core-dumps,libtool,cmake_install.cmake,*.lo,*.db,.yarn,*.pyo,*.rej,*.gmo,.yarn-cache,.bzr,conftest
+exclude filters=*.pc,CMakeTmp,litmain.sh,*.csproj,*.init,*.qmlc,.uic,*.ini,.moc,*.nvram,*.rcore,*.map,*.qrc,CMakeCache.txt,.hg,*.class,po,.svn,nbproject,*.o,conftest,CMakeFiles,.yarn-cache,.obj,lost+found,Makefile.am,.bzr,*.part,autom4te,*.jsc,.pch,qrc_*.cpp,cmake_install.cmake,__pycache__,.npm,*.vm*,*.so,*.pyo,core-dumps,CTestTestfile.cmake,*.orig,*.lo,.yarn,*.gmo,*.db,confstat,*~,.git,*.la,CVS,libtool,*.pyc,*.omf,*.a,_darcs,*.swap,*.moc,CMakeTmpQmake,*.rej,lzo,moc_*.cpp,node_packages,ui_*.h,*.po,.xsession-errors*,config.status,*.aux,node_modules,*.m4,confdefs.h,*.tmp,*.loT,.histfile.*,*.elc
 exclude filters version=3
 first run=false
-folders[$e]=$HOME/

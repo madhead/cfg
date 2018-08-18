@@ -1,6 +1,0 @@
-[Event/ConnectionFailed]
-Action=Popup
-Execute=
-Logfile=
-Sound=
-TTS=

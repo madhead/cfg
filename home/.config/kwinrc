@@ -1,24 +1,9 @@
 [Compositing]
-AnimationSpeed=3
-Backend=OpenGL
-Enabled=true
-GLCore=false
-GLPlatformInterface=glx
-GLPreferBufferSwap=a
-GLTextureFilter=2
-HiddenPreviews=5
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=true
-XRenderSmoothScale=false
 
 [Desktops]
-Name_1[$d]
 Number=1
 Rows=1
-
-[Effect-CoverSwitch]
-TabBox=false
-TabBoxAlternative=false
 
 [Effect-Cube]
 BorderActivate=9
@@ -28,19 +13,10 @@ BorderActivateSphere=9
 [Effect-DesktopGrid]
 BorderActivate=9
 
-[Effect-FlipSwitch]
-TabBox=false
-TabBoxAlternative=false
-
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=9
 BorderActivateClass=9
-
-[Effect-Wobbly]
-Drag=85
-Stiffness=10
-WobblynessLevel=1
 
 [ElectricBorders]
 Bottom=None
@@ -52,105 +28,25 @@ Top=None
 TopLeft=None
 TopRight=None
 
-[MouseBindings]
-CommandActiveTitlebar1=Raise
-CommandActiveTitlebar2=Start window tab drag
-CommandActiveTitlebar3=Operations menu
-CommandAll1=Move
-CommandAll2=Toggle raise and lower
-CommandAll3=Resize
-CommandAllKey=Meta
-CommandAllWheel=Change Opacity
-CommandInactiveTitlebar1=Activate and raise
-CommandInactiveTitlebar2=Start window tab drag
-CommandInactiveTitlebar3=Operations menu
-CommandTitlebarWheel=Switch to Window Tab to the Left/Right
-CommandWindow1=Activate, raise and pass click
-CommandWindow2=Activate and pass click
-CommandWindow3=Activate and pass click
-CommandWindowWheel=Scroll
-
 [Plugins]
 cubeslideEnabled=false
 desktopchangeosdEnabled=false
-highlightwindowEnabled=true
 kwin4_effect_fadedesktopEnabled=false
-mousemarkEnabled=true
 slideEnabled=true
-trackmouseEnabled=true
-windowgeometryEnabled=false
-wobblywindowsEnabled=true
 
 [Script-desktopchangeosd]
 PopupHideDelay=1000
 TextOnly=false
 
 [TabBox]
-ActivitiesMode=1
-ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
-DesktopLayout=org.kde.breeze.desktop
-DesktopListLayout=org.kde.breeze.desktop
-DesktopMode=1
-HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
-MinimizedMode=0
-MultiScreenMode=0
-ShowDesktopMode=0
-ShowTabBox=true
-SwitchingMode=0
-
-[TabBoxAlternative]
-ActivitiesMode=1
-ApplicationsMode=0
-DesktopMode=1
-HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
-MinimizedMode=0
-MultiScreenMode=0
-ShowDesktopMode=0
-ShowTabBox=true
-SwitchingMode=0
 
 [Windows]
-ActiveMouseScreen=false
-AutoRaise=false
-AutoRaiseInterval=750
-AutogroupInForeground=true
-AutogroupSimilarWindows=false
-BorderSnapZone=10
-CenterSnapZone=0
-ClickRaise=true
-DelayFocusInterval=300
 ElectricBorderCooldown=350
 ElectricBorderCornerRatio=0.25
 ElectricBorderDelay=150
 ElectricBorderMaximize=true
 ElectricBorderTiling=true
 ElectricBorders=0
-FocusPolicy=ClickToFocus
-FocusStealingPreventionLevel=1
-GeometryTip=false
-HideUtilityWindowsForInactive=true
-InactiveTabsSkipTaskbar=false
-MaximizeButtonLeftClickCommand=Maximize
-MaximizeButtonMiddleClickCommand=Maximize (vertical only)
-MaximizeButtonRightClickCommand=Maximize (horizontal only)
-NextFocusPrefersMouse=false
-Placement=Smart
 RollOverDesktops=true
-SeparateScreenFocus=false
-ShadeHover=false
-ShadeHoverInterval=250
-SnapOnlyWhenOverlapping=false
-TitlebarDoubleClickCommand=Maximize
-WindowSnapZone=10
-
-[org.kde.kdecoration2]
-BorderSize=Normal
-ButtonsOnLeft=M
-ButtonsOnRight=IAX
-CloseOnDoubleClickOnMenu=false
-library=org.kde.breeze
-theme=

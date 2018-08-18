@@ -1,6 +1,0 @@
-[Event/MountFailed]
-Action=Popup
-Execute=
-Logfile=
-Sound=
-TTS=

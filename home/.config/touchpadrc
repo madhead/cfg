@@ -2,5 +2,5 @@
 DisableWhenMousePluggedIn=true
 
 [parameters]
+AccelFactor=0
 InvertVertScroll=true
-Tapping=true
