@@ -1,5 +1,5 @@
 [autodisable]
-DisableWhenMousePluggedIn=true
+DisableWhenMousePluggedIn=false
 
 [parameters]
 AccelFactor=0

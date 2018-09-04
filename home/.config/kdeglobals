@@ -107,6 +107,10 @@ ForegroundNormal=24,33,40
 ForegroundPositive=52,152,219
 ForegroundVisited=91,44,112
 
+[DirSelect Dialog]
+DirSelectDialog Size=640,480
+History Items[$e]=file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
+
 [General]
 BrowserApplication[$e]=google-chrome.desktop
 ColorScheme=Maia

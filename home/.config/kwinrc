@@ -13,6 +13,9 @@ BorderActivateSphere=9
 [Effect-DesktopGrid]
 BorderActivate=9
 
+[Effect-MouseClick]
+ShowText=false
+
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=9
@@ -31,8 +34,14 @@ TopRight=None
 [Plugins]
 cubeslideEnabled=false
 desktopchangeosdEnabled=false
+invertEnabled=true
 kwin4_effect_fadedesktopEnabled=false
+mouseclickEnabled=true
+mousemarkEnabled=true
 slideEnabled=true
+thumbnailasideEnabled=true
+trackmouseEnabled=true
+wobblywindowsEnabled=true
 
 [Script-desktopchangeosd]
 PopupHideDelay=1000
