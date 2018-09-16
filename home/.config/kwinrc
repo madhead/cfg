@@ -64,5 +64,9 @@ ElectricBorders=0
 RollOverDesktops=true
 
 [org.kde.kdecoration2]
+BorderSize=Normal
+ButtonsOnLeft=MS
+ButtonsOnRight=HIAX
+CloseOnDoubleClickOnMenu=false
 library=org.kde.breeze
-theme=
+theme[$d]
