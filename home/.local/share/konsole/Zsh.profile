@@ -6,3 +6,7 @@ Font=Droid Sans Mono,12,-1,5,50,0,0,0,0,0
 Command=/bin/zsh
 Name=Zsh
 Parent=FALLBACK/
+
+[Scrolling]
+HistoryMode=1
+HistorySize=10000
