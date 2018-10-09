@@ -65,7 +65,7 @@ tasks:
       # - "'Humans' == show": accept
       - "'Dark Matter' == show": accept
       - "'Battle Creek' == show": accept
-      - "'The Man in the High Castle' == show": accept
+      # - "'The Man in the High Castle' == show": accept
       - "'Marco Polo' == show": accept
       - "'Star Wars Rebels' == show": accept
       # - "'Forever' == show": accept
