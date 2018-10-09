@@ -109,7 +109,7 @@ ForegroundVisited=91,44,112
 
 [DirSelect Dialog]
 DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
+History Items[$e]=file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
 
 [General]
 BrowserApplication[$e]=google-chrome.desktop
@@ -136,10 +136,11 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
+Preview Width=557
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
-Show Preview=false
+Show Preview=true
 Show Speedbar=true
 Show hidden files=false
 Sort by=Name
