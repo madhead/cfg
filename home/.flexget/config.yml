@@ -30,6 +30,7 @@ tasks:
 
       # - "'Game of Thrones' == show": accept
       - "'Star Wars: Forces of Destiny' == show": accept
+      - "'Star Wars Resistance' == show": accept
       # - "'The Mist' == show": accept
       # - "'Blood Drive' == show": accept
       # - "'American Gods' == show": accept
