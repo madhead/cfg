@@ -1,9 +1,9 @@
 [Layout]
-DisplayNames=,
-LayoutList=us,ru
-LayoutLoopCount=-1
+DisplayNames=,,
+LayoutList=us,ru,by
+LayoutLoopCount=2
 Model=pc101
-Options=terminate:ctrl_alt_bksp,caps:none,grp:win_space_toggle,grp:alt_caps_toggle,compose:ralt
+Options=terminate:ctrl_alt_bksp,caps:none,grp:win_space_toggle,grp:alt_caps_toggle,compose:ralt,shift:both_capslock
 ResetOldOptions=true
 ShowFlag=false
 ShowLabel=true

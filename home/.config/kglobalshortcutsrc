@@ -1,4 +1,9 @@
+[ActivityManager]
+_k_friendly_name=Activity Manager
+switch-to-activity-167f1def-3404-492f-9b32-3f61e6704ced=none,none,Switch to activity "Default"
+
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to Belarusian=none,none,Switch keyboard layout to Belarusian
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Russian=none,none,Switch keyboard layout to Russian
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
