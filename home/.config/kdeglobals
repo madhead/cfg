@@ -108,11 +108,11 @@ ForegroundPositive=52,152,219
 ForegroundVisited=91,44,112
 
 [DirSelect Dialog]
-DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
+DirSelectDialog Size=1920,999
+History Items[$e]=file:$HOME/Downloads,file:$HOME/Projects/madhead.me/static/images/post/maven-is-not-so-stable,file:$HOME/Projects/madhead.me/static/images/post/back-to-the-inkscape,file:$HOME/Projects/madhead.me/static/images/post,file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
 
 [General]
-BrowserApplication[$e]=google-chrome.desktop
+BrowserApplication[$e]=firefox.desktop
 ColorScheme=Maia
 Name=Breath
 XftAntialias=true
@@ -136,14 +136,14 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=144
+Preview Width=503
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=true
 Show Speedbar=true
 Show hidden files=false
-Sort by=Name
+Sort by=Type
 Sort directories first=true
 Sort reversed=false
 Speedbar Width=107
