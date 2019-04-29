@@ -55,5 +55,8 @@
   <Action shortcut="Ctrl+T" name="new-tab"/>
   <Action shortcut="Ctrl+Tab" name="next-view"/>
   <Action shortcut="Ctrl+Shift+Tab" name="previous-view"/>
+  <Action shortcut="" name="clone-tab"/>
+  <Action shortcut="" name="last-used-tab"/>
+  <Action shortcut="" name="last-used-tab-reverse"/>
  </ActionProperties>
 </kpartgui>
