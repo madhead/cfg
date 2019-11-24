@@ -3,6 +3,6 @@ Indexing-Enabled=false
 
 [General]
 dbVersion=2
-exclude filters=po,moc_*.cpp,*.fastq,*.rcore,*.o,__pycache__,*.vm*,.uic,*.nvram,*.db,nbproject,Makefile.am,CMakeCache.txt,CMakeFiles,*.omf,*.pyo,*.init,CMakeTmpQmake,*.class,*.swap,config.status,.pch,.npm,*.fasta,.git,lost+found,*.gmo,*.po,ui_*.h,*.m4,*.fq,*.pc,.xsession-errors*,libtool,confstat,*.rej,node_packages,.bzr,*.gbff,litmain.sh,.moc,*.faa,*.part,*.elc,*.loT,*.map,*.orig,*.ini,*.jsc,*.moc,CTestTestfile.cmake,*~,.yarn-cache,*.aux,*.gb,cmake_install.cmake,*.la,.hg,*.qrc,autom4te,*.csproj,core-dumps,*.pyc,conftest,CVS,_darcs,*.a,confdefs.h,*.so,*.tmp,CMakeTmp,*.qmlc,.yarn,*.lo,*.fna,.svn,.obj,lzo,qrc_*.cpp,node_modules,.histfile.*
-exclude filters version=4
+exclude filters=po,CMakeFiles,.uic,qrc_*.cpp,core-dumps,*.fastq,*~,cmake_install.cmake,*.rej,moc_*.cpp,*.pyo,.yarn,confdefs.h,*.csproj,config.status,.bzr,*.moc,CMakeTmp,*.sql,*.tmp,*.omf,*.vhdx,litmain.sh,node_modules,*.vbox*,nbproject,*.a,ui_*.h,CMakeTmpQmake,*.swap,lzo,Makefile.am,*.pc,.xsession-errors*,*.gmo,*.elc,*.vdi,.yarn-cache,*.map,*.la,conftest,confstat,*.vhd,libtool,*.aux,*.qcow2,*.so,*.class,.svn,lost+found,*.m4,*.lo,*.fq,*.o,*.db,.npm,*.nvram,CTestTestfile.cmake,*.ini,_darcs,*.part,*.fna,node_packages,*.img,*.rcore,.git,*.gb,__pycache__,*.loT,*.orig,*.pyc,.moc,*.qrc,CVS,*.fasta,*.po,*.init,*.sql.gz,*.faa,*.vmdk,*.jsc,CMakeCache.txt,*.gbff,.obj,vbox.log,*.vm*,.histfile.*,*.qmlc,*.gcode,autom4te,.pch,.hg
+exclude filters version=5
 first run=false

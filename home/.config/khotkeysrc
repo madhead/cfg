@@ -1,5 +1,8 @@
+[$Version]
+update_info=spectacle_shortcuts.upd:spectacle-migrate-shortcuts
+
 [Data]
-DataCount=4
+DataCount=3
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
@@ -881,135 +884,6 @@ TriggersCount=1
 Key=Meta+E
 Type=SHORTCUT
 Uuid={1d71d2c2-8d46-4c5f-87b3-441f7af3b735}
-
-[Data_4]
-Comment=Shortcuts for taking screenshots
-DataCount=4
-Enabled=true
-ImportId=spectacle
-Name=Screenshots
-SystemGroup=0
-Type=ACTION_DATA_GROUP
-
-[Data_4Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_1]
-Comment=Start the screenshot tool and show the GUI
-Enabled=true
-Name=Start Screenshot Tool
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_1Actions]
-ActionsCount=1
-
-[Data_4_1Actions0]
-Arguments=
-Call=StartAgent
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_1Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_1Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_1Triggers0]
-Key=Print
-Type=SHORTCUT
-Uuid={a3a96682-b036-4d52-966b-de26b0961b27}
-
-[Data_4_2]
-Comment=Take a full screen (all monitors) screenshot and save it
-Enabled=true
-Name=Take Full Screen Screenshot
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_2Actions]
-ActionsCount=1
-
-[Data_4_2Actions0]
-Arguments=false
-Call=FullScreen
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_2Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_2Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_2Triggers0]
-Key=Shift+Print
-Type=SHORTCUT
-Uuid={0e5b17f7-a379-4e56-8958-49298305c258}
-
-[Data_4_3]
-Comment=Take a screenshot of the currently active window and save it
-Enabled=true
-Name=Take Active Window Screenshot
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_3Actions]
-ActionsCount=1
-
-[Data_4_3Actions0]
-Arguments=true false
-Call=ActiveWindow
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_3Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_3Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_3Triggers0]
-Key=Meta+Print
-Type=SHORTCUT
-Uuid={1e0b949b-4201-428f-aab7-8e72af4a5d07}
-
-[Data_4_4]
-Comment=Take a screenshot of a rectangular region you specify and save it
-Enabled=true
-Name=Take Rectangular Region Screenshot
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_4Actions]
-ActionsCount=1
-
-[Data_4_4Actions0]
-Arguments=true
-Call=RectangularRegion
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_4Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_4Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_4Triggers0]
-Key=Meta+Shift+Print
-Type=SHORTCUT
-Uuid={adef190f-a97d-46b0-8379-33302d51ed50}
 
 [Directories]
 dir_pixmap[$d]

@@ -23,5 +23,7 @@
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "prettier.singleQuote": true,
+    "workbench.startupEditor": "newUntitledFile"
 }
