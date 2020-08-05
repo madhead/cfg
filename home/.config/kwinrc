@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
 
 [Compositing]
 OpenGLIsUnsafe=false
@@ -8,6 +8,9 @@ OpenGLIsUnsafe=false
 Id_1=94a96294-1345-459e-9be6-a917c5a628e5
 Number=1
 Rows=1
+
+[DrmOutputs][25c1b222e2][25c1b222e2]
+Scale=1
 
 [Effect-Cube]
 BorderActivate=9
@@ -52,6 +55,10 @@ CommandWindow1=Activate, raise and pass click
 CommandWindow2=Activate and pass click
 CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
+
+[NightColor]
+Active=true
+NightTemperature=3100
 
 [Plugins]
 cubeslideEnabled=false

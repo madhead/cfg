@@ -137,7 +137,6 @@ tasks:
       # - "'Quantum leap' == show": accept
       # - "'Star Trek: The Original Series' == show": accept
       - "'Philip K. Dick''s Electric Dreams' == show": accept
-      - "'Altered Carbon' == show": accept
       - "'The Mandalorian' == show": accept
 
     # Variables for qBittorrent

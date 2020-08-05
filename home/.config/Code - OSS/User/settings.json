@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Violaceous Contrast (rainglow)",
     "workbench.iconTheme": "vs-minimal",
     "editor.renderWhitespace": "all",
     "explorer.confirmDragAndDrop": false,
@@ -25,5 +25,10 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "prettier.singleQuote": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "window.titleBarStyle": "custom",
+    "html.format.wrapLineLength": 0,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }

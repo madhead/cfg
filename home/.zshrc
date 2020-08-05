@@ -1,19 +1,8 @@
-ZSH_THEME="madhead"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-HIST_STAMPS="mm/dd/yyyy"
-
 plugins=(git docker)
+[[ -s $ZSH/oh-my-zsh.sh ]] && source $ZSH/oh-my-zsh.sh
 
-source $ZSH/oh-my-zsh.sh
+[[ -s $SDKMAN_DIR/bin/sdkman-init.sh ]] && source $SDKMAN_DIR/bin/sdkman-init.sh
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-[[ -f ~/.zshrc-local ]] && source ~/.zshrc-local
+[[ -s ~/.zshrc-local ]] && source ~/.zshrc-local
 
 zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
-

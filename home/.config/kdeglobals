@@ -1,5 +1,5 @@
 [$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,kwin.upd:animation-speed,icons_remove_effects.upd:IconsRemoveEffects,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
@@ -108,8 +108,8 @@ ForegroundPositive=52,152,219
 ForegroundVisited=91,44,112
 
 [DirSelect Dialog]
-DirSelectDialog Size=1272,652
-History Items[$e]=file:$HOME/Projects/playgrounds/freecad/arch/01,file:///usr/share/plex/movies,file:///usr/share/plex/shows/Elementary/Season 07,file:$HOME/Downloads,file:$HOME/Projects/madhead.me/static/images/post/maven-is-not-so-stable,file:$HOME/Projects/madhead.me/static/images/post/back-to-the-inkscape,file:$HOME/Projects/madhead.me/static/images/post,file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
+DirSelectDialog Size=844,598
+History Items[$e]=file:$HOME/Projects/KAP,file:$HOME/Projects/playgrounds/freecad/arch/01,file:///usr/share/plex/movies,file:///usr/share/plex/shows/Elementary/Season 07,file:$HOME/Downloads,file:$HOME/Projects/madhead.me/static/images/post/maven-is-not-so-stable,file:$HOME/Projects/madhead.me/static/images/post/back-to-the-inkscape,file:$HOME/Projects/madhead.me/static/images/post,file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
 
 [General]
 BrowserApplication[$e]=firefox.desktop
@@ -128,7 +128,7 @@ Theme=maia
 [KDE]
 LookAndFeelPackage=org.kde.breath.desktop
 contrast=4
-widgetStyle=breeze
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -144,9 +144,9 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Name
+Sort by=Date
 Sort directories first=true
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=107
 View Style=Simple
 listViewIconSize=0
