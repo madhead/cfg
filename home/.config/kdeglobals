@@ -6,10 +6,10 @@ ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65000000000000002
+ContrastAmount=0.65
 ContrastEffect=1
 Enable=
-IntensityAmount=0.10000000000000001
+IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
@@ -25,17 +25,17 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=224,223,222
-BackgroundNormal=247,247,247
+BackgroundNormal=236,236,236
 DecorationFocus=26,188,156
-DecorationHover=22,160,133
+DecorationHover=54,215,183
 ForegroundActive=155,89,182
-ForegroundInactive=182,186,186
+ForegroundInactive=164,166,166
 ForegroundLink=76,107,138
 ForegroundNegative=231,76,60
 ForegroundNeutral=230,126,34
-ForegroundNormal=24,33,40
+ForegroundNormal=41,47,52
 ForegroundPositive=52,152,219
-ForegroundVisited=91,44,112
+ForegroundVisited=145,61,136
 
 [Colors:Complementary]
 BackgroundAlternate=59,64,69
@@ -54,66 +54,66 @@ ForegroundVisited=61,174,230
 [Colors:Selection]
 BackgroundAlternate=62,138,204
 BackgroundNormal=26,188,156
-DecorationFocus=22,160,133
-DecorationHover=26,188,156
+DecorationFocus=26,188,156
+DecorationHover=54,215,183
 ForegroundActive=96,55,113
 ForegroundInactive=222,222,222
 ForegroundLink=0,98,218
 ForegroundNegative=231,76,60
-ForegroundNeutral=230,126,34
+ForegroundNeutral=168,88,23
 ForegroundNormal=255,255,255
-ForegroundPositive=52,152,219
-ForegroundVisited=91,44,112
+ForegroundPositive=37,116,165
+ForegroundVisited=145,61,136
 
 [Colors:Tooltip]
 BackgroundAlternate=196,224,255
 BackgroundNormal=41,47,52
 DecorationFocus=26,188,156
-DecorationHover=22,160,133
+DecorationHover=54,215,183
 ForegroundActive=155,89,182
-ForegroundInactive=230,230,230
+ForegroundInactive=164,166,166
 ForegroundLink=126,178,230
 ForegroundNegative=231,76,60
 ForegroundNeutral=230,126,34
 ForegroundNormal=247,247,247
 ForegroundPositive=52,152,219
-ForegroundVisited=91,44,112
+ForegroundVisited=145,61,136
 
 [Colors:View]
 BackgroundAlternate=248,247,246
 BackgroundNormal=255,255,255
 DecorationFocus=26,188,156
-DecorationHover=22,160,133
+DecorationHover=54,215,183
 ForegroundActive=155,89,182
-ForegroundInactive=182,186,186
+ForegroundInactive=164,166,166
 ForegroundLink=76,107,138
 ForegroundNegative=231,76,60
 ForegroundNeutral=230,126,34
-ForegroundNormal=24,33,40
+ForegroundNormal=41,47,52
 ForegroundPositive=52,152,219
-ForegroundVisited=91,44,112
+ForegroundVisited=145,61,136
 
 [Colors:Window]
 BackgroundAlternate=218,217,216
-BackgroundNormal=247,247,247
-DecorationFocus=22,160,133
+BackgroundNormal=236,236,236
+DecorationFocus=54,215,183
 DecorationHover=26,188,156
 ForegroundActive=155,89,182
-ForegroundInactive=182,186,186
+ForegroundInactive=164,166,166
 ForegroundLink=76,107,138
 ForegroundNegative=231,76,60
 ForegroundNeutral=230,126,34
-ForegroundNormal=24,33,40
+ForegroundNormal=41,47,52
 ForegroundPositive=52,152,219
-ForegroundVisited=91,44,112
+ForegroundVisited=145,61,136
 
 [DirSelect Dialog]
 DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME/Projects/KAP,file:$HOME/Projects/playgrounds/freecad/arch/01,file:///usr/share/plex/movies,file:///usr/share/plex/shows/Elementary/Season 07,file:$HOME/Downloads,file:$HOME/Projects/madhead.me/static/images/post/maven-is-not-so-stable,file:$HOME/Projects/madhead.me/static/images/post/back-to-the-inkscape,file:$HOME/Projects/madhead.me/static/images/post,file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
+History Items[$e]=file:$HOME/Projects/gradle,file:$HOME/Projects/KAP,file:$HOME/Projects/playgrounds/freecad/arch/01,file:///usr/share/plex/movies,file:///usr/share/plex/shows/Elementary/Season 07,file:$HOME/Downloads,file:$HOME/Projects/madhead.me/static/images/post/maven-is-not-so-stable,file:$HOME/Projects/madhead.me/static/images/post/back-to-the-inkscape,file:$HOME/Projects/madhead.me/static/images/post,file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
 
 [General]
 BrowserApplication[$e]=firefox.desktop
-ColorScheme=Maia
+ColorScheme=Breath
 Name=Breath
 XftAntialias=true
 XftHintStyle=
@@ -155,9 +155,9 @@ listViewIconSize=0
 Dialog Size=600,480
 
 [WM]
-activeBackground=41,47,52
-activeBlend=41,47,52
-activeForeground=247,247,247
-inactiveBackground=247,247,247
-inactiveBlend=247,247,247
-inactiveForeground=24,33,40
+activeBackground=236,236,236
+activeBlend=236,236,236
+activeForeground=41,47,52
+inactiveBackground=236,236,236
+inactiveBlend=236,236,236
+inactiveForeground=159,185,202

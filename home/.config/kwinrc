@@ -125,4 +125,4 @@ ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.breeze
-theme[$d]
+theme=Breeze

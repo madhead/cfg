@@ -6,9 +6,10 @@
     "explorer.confirmDelete": false,
     "files.exclude": {
         "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.git": false,
         "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
+        "**/.settings": true
     },
     "window.zoomLevel": 0,
     "editor.multiCursorModifier": "alt",
@@ -30,5 +31,8 @@
     "html.format.wrapLineLength": 0,
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     }
 }

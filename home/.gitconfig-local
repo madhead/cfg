@@ -1,5 +1,8 @@
 # Include this file in ~/.gitconfig
 
+[core]
+	pager = less -FRX
+
 [alias]
 	k = !gitk &
 	ka = !gitk --all &
