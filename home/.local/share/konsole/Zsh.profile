@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=GreenOnBlack
-Font=Droid Sans Mono,12,-1,5,50,0,0,0,0,0
+Font=JetBrains Mono,12,-1,5,50,0,0,0,0,0,Variable
 
 [General]
 Command=/bin/zsh

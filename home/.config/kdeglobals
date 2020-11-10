@@ -108,8 +108,8 @@ ForegroundPositive=52,152,219
 ForegroundVisited=145,61,136
 
 [DirSelect Dialog]
-DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME/Projects/gradle,file:$HOME/Projects/KAP,file:$HOME/Projects/playgrounds/freecad/arch/01,file:///usr/share/plex/movies,file:///usr/share/plex/shows/Elementary/Season 07,file:$HOME/Downloads,file:$HOME/Projects/madhead.me/static/images/post/maven-is-not-so-stable,file:$HOME/Projects/madhead.me/static/images/post/back-to-the-inkscape,file:$HOME/Projects/madhead.me/static/images/post,file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
+DirSelectDialog Size=844,582
+History Items[$e]=file:$HOME/Videos,file:$HOME/Projects/gradle,file:$HOME/Projects/KAP,file:$HOME/Projects/playgrounds/freecad/arch/01,file:///usr/share/plex/movies,file:///usr/share/plex/shows/Elementary/Season 07,file:$HOME/Downloads,file:$HOME/Projects/madhead.me/static/images/post/maven-is-not-so-stable,file:$HOME/Projects/madhead.me/static/images/post/back-to-the-inkscape,file:$HOME/Projects/madhead.me/static/images/post,file:$HOME/Pictures/wallpapers/The Future is Now,file:$HOME/Movies,file:$HOME/Videos,file:$HOME/Books
 
 [General]
 BrowserApplication[$e]=firefox.desktop
