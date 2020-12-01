@@ -37,5 +37,7 @@
     },
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false
 }
