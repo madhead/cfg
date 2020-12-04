@@ -36,11 +36,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
   <action id="DSM.Close" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
-  </action>
-  <action id="EditorChooseLookupItemCompleteStatement">
-    <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl up" />
@@ -53,6 +53,15 @@
   </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
@@ -74,9 +83,7 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
-  </action>
+  <action id="FindInPath" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -163,7 +170,7 @@
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="RemoteHostView.CopyPaths" />
   <action id="RenameElement">
@@ -171,6 +178,10 @@
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
