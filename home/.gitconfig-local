@@ -7,8 +7,8 @@
 	k = !gitk &
 	ka = !gitk --all &
 	hist = "log --pretty=format:\"%C(yellow)%h%C(reset) %C(green)%an%C(reset) %s\" -n 15"
-	fa = fetch --all
-	fap = fetch --all --prune
+	fa = fetch --all --tags --force
+	fap = fetch --all --tags --force --prune
 	co = checkout
 	erase = !"git push origin :$1 && git branch -D $1; :"
 	st = status

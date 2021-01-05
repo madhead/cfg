@@ -39,5 +39,8 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "dart.debugExternalLibraries": false,
-    "dart.debugSdkLibraries": false
+    "dart.debugSdkLibraries": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
